@@ -1,35 +1,91 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState, useEffect } from 'react'
+import type { Screen, Question, AnsweredQuestion, LeaderboardEntry } from './types'
+import { CONFIG } from './config'
+import { selectQuestions } from './lib/selectQuestions'
+import { submitScore, fetchLeaderboard } from './lib/leaderboard'
+import { HomeScreen } from './components/HomeScreen'
+import { QuizScreen } from './components/QuizScreen'
+import { EndScreen } from './components/EndScreen'
+import { LeaderboardScreen } from './components/LeaderboardScreen'
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const [screen, setScreen] = useState<Screen>('home')
+  const [nickname, setNickname] = useState('')
+  const [questions, setQuestions] = useState<Question[]>([])
+  const [allQuestions, setAllQuestions] = useState<Question[]>([])
+  const [results, setResults] = useState<AnsweredQuestion[]>([])
+  const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([])
+  const [lbLoading, setLbLoading] = useState(false)
+
+  useEffect(() => {
+    fetch('/questions.json')
+      .then(r => r.json())
+      .then(setAllQuestions)
+  }, [])
+
+  function startQuiz(name: string) {
+    setNickname(name)
+    const selected = selectQuestions(allQuestions, CONFIG.questionsPerRound, CONFIG.categoryWeights)
+    setQuestions(selected)
+    setScreen('quiz')
+  }
+
+  function handleQuizComplete(quizResults: AnsweredQuestion[]) {
+    setResults(quizResults)
+    setScreen('end')
+  }
+
+  async function handleSubmitScore() {
+    const totalScore = results.reduce((s, r) => s + r.pointsEarned, 0)
+    const maxScore = results.length * (CONFIG.basePoints + CONFIG.maxSpeedBonus)
+    await submitScore({
+      nickname,
+      score: totalScore,
+      max_score: maxScore,
+      questions: results.length,
+      correct: results.filter(r => r.correct).length,
+    })
+    loadLeaderboard()
+    setScreen('leaderboard')
+  }
+
+  async function loadLeaderboard() {
+    setLbLoading(true)
+    setScreen('leaderboard')
+    const entries = await fetchLeaderboard()
+    setLeaderboard(entries)
+    setLbLoading(false)
+  }
+
+  function playAgain() {
+    setScreen('home')
+    setResults([])
+  }
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {screen === 'home' && (
+        <HomeScreen onStart={startQuiz} onLeaderboard={loadLeaderboard} />
+      )}
+      {screen === 'quiz' && (
+        <QuizScreen questions={questions} onComplete={handleQuizComplete} />
+      )}
+      {screen === 'end' && (
+        <EndScreen
+          results={results}
+          nickname={nickname}
+          onSubmit={handleSubmitScore}
+          onPlayAgain={playAgain}
+        />
+      )}
+      {screen === 'leaderboard' && (
+        <LeaderboardScreen
+          entries={leaderboard}
+          currentNickname={nickname || null}
+          loading={lbLoading}
+          onPlayAgain={playAgain}
+        />
+      )}
     </>
   )
 }
-
-export default App
