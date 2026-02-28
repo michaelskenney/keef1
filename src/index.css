@@ -1,68 +1,111 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --red: #E8001C;
+  --black: #0a0a0a;
+  --dark: #1a1a1a;
+  --mid: #2a2a2a;
+  --light: #f0f0f0;
+  --muted: #888;
+  --font-size-base: 18px;
+  --font-size-lg: 22px;
+  --font-size-xl: 28px;
+  --font-size-xxl: 40px;
+  --radius: 8px;
+  --tap-min: 52px;
+  --transition: 0.15s ease;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-a:hover {
-  color: #535bf2;
+
+html {
+  font-size: var(--font-size-base);
+  background: var(--black);
+  color: var(--light);
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  min-height: 100dvh;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+#root {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  min-height: var(--tap-min);
+  border: none;
+  border-radius: var(--radius);
+  font-size: var(--font-size-base);
+  font-weight: 700;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  transition: opacity var(--transition), transform var(--transition);
+  -webkit-tap-highlight-color: transparent;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+button:active {
+  opacity: 0.8;
+  transform: scale(0.98);
+}
+
+input[type="text"] {
+  font-size: 16px; /* prevent iOS auto-zoom */
+  min-height: var(--tap-min);
+  padding: 0 16px;
+  background: var(--mid);
+  border: 2px solid var(--mid);
+  border-radius: var(--radius);
+  color: var(--light);
+  width: 100%;
+  outline: none;
+  transition: border-color var(--transition);
+}
+
+input[type="text"]:focus {
+  border-color: var(--red);
+}
+
+.btn-primary {
+  background: var(--red);
+  color: white;
+  width: 100%;
+  padding: 0 24px;
+}
+
+.btn-secondary {
+  background: var(--mid);
+  color: var(--light);
+  width: 100%;
+  padding: 0 24px;
+}
+
+.screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 20px;
+  gap: 20px;
+}
+
+.app-title {
+  font-size: var(--font-size-xxl);
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.app-title span {
+  color: var(--red);
 }
