@@ -1,0 +1,89 @@
+[
+  {
+    "id": "mc-001",
+    "type": "multiple_choice",
+    "category": "albums",
+    "question": "In what year was 'Exile on Main St.' released?",
+    "options": ["1969", "1972", "1974", "1978"],
+    "answer": "1972",
+    "points": 10
+  },
+  {
+    "id": "mc-002",
+    "type": "multiple_choice",
+    "category": "members",
+    "question": "Which guitarist replaced Brian Jones in the Rolling Stones?",
+    "options": ["Ron Wood", "Mick Taylor", "Keith Richards", "Nicky Hopkins"],
+    "answer": "Mick Taylor",
+    "points": 10
+  },
+  {
+    "id": "lb-001",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "Complete the lyric: 'Please allow me to introduce myself, I'm a man of ___ and taste'",
+    "answer": "wealth",
+    "points": 10
+  },
+  {
+    "id": "lb-002",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "Complete the lyric: 'I can't get no ___'",
+    "answer": "satisfaction",
+    "points": 10
+  },
+  {
+    "id": "ft-001",
+    "type": "free_text",
+    "category": "members",
+    "question": "What is the name of the Rolling Stones' longtime touring keyboardist known as 'the sixth Stone'?",
+    "answer": "Chuck Leavell",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-002",
+    "type": "free_text",
+    "category": "trivia",
+    "question": "On which London street did Mick Jagger and Keith Richards famously reconnect on a train platform in 1961?",
+    "answer": "Dartford",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-003",
+    "type": "multiple_choice",
+    "category": "albums",
+    "question": "What was the Rolling Stones' first UK number one single?",
+    "options": ["Paint It Black", "It's All Over Now", "The Last Time", "Satisfaction"],
+    "answer": "It's All Over Now",
+    "points": 10
+  },
+  {
+    "id": "mc-004",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "question": "Which Rolling Stones album featured the song 'Wild Horses'?",
+    "options": ["Sticky Fingers", "Let It Bleed", "Beggars Banquet", "Goats Head Soup"],
+    "answer": "Sticky Fingers",
+    "points": 10
+  },
+  {
+    "id": "lb-003",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "Complete the lyric: 'Hey! You! Get off of my ___'",
+    "answer": "cloud",
+    "points": 10
+  },
+  {
+    "id": "ft-003",
+    "type": "free_text",
+    "category": "albums",
+    "question": "Name the 1968 Rolling Stones album that marked their embrace of blues roots.",
+    "answer": "Beggars Banquet",
+    "fuzzy": true,
+    "points": 10
+  }
+]
