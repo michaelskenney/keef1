@@ -36,7 +36,7 @@
     "difficulty": "easy",
     "question": "Who designed the iconic 'Sticky Fingers' cover featuring a real working zipper?",
     "options": [
-      "Salvador Dalí",
+      "Salvador Dal\u00ed",
       "Andy Warhol",
       "Peter Blake",
       "Storm Thorgerson"
@@ -169,7 +169,7 @@
     "type": "multiple_choice",
     "category": "albums",
     "difficulty": "hard",
-    "question": "What is the Rolling Stones' 2023 album — their first record of original material since 'A Bigger Bang' in 2005?",
+    "question": "What is the Rolling Stones' 2023 album \u2014 their first record of original material since 'A Bigger Bang' in 2005?",
     "options": [
       "Blue & Lonesome",
       "Bridges to Babylon",
@@ -230,7 +230,7 @@
     "category": "albums",
     "difficulty": "medium",
     "question": "Exile on Main St. was recorded in the basement of Villa ___, Keith Richards' rented mansion on the French Riviera.",
-    "answer": "Nellcôte",
+    "answer": "Nellc\u00f4te",
     "fuzzy": true,
     "points": 10
   },
@@ -288,7 +288,7 @@
     "category": "albums",
     "difficulty": "hard",
     "question": "What is the name of the Keith Richards mansion on the French Riviera where Exile on Main St. was recorded?",
-    "answer": "Villa Nellcôte",
+    "answer": "Villa Nellc\u00f4te",
     "fuzzy": true,
     "points": 10
   },
@@ -532,7 +532,7 @@
     "type": "fill_blank",
     "category": "members",
     "difficulty": "medium",
-    "question": "Bill Wyman was born William George ___ — he adopted his stage name early in his career.",
+    "question": "Bill Wyman was born William George ___ \u2014 he adopted his stage name early in his career.",
     "answer": "Perks",
     "points": 10
   },
@@ -550,7 +550,7 @@
     "type": "fill_blank",
     "category": "members",
     "difficulty": "hard",
-    "question": "Brian Jones was born in ___, Gloucestershire — not Dartford like Jagger and Richards.",
+    "question": "Brian Jones was born in ___, Gloucestershire \u2014 not Dartford like Jagger and Richards.",
     "answer": "Cheltenham",
     "points": 10
   },
@@ -684,7 +684,7 @@
     "type": "multiple_choice",
     "category": "trivia",
     "difficulty": "medium",
-    "question": "Brian Jones purchased Cotchford Farm in 1968 — previously the home of which beloved British author?",
+    "question": "Brian Jones purchased Cotchford Farm in 1968 \u2014 previously the home of which beloved British author?",
     "options": [
       "Roald Dahl",
       "A.A. Milne",
@@ -774,7 +774,7 @@
     "type": "multiple_choice",
     "category": "trivia",
     "difficulty": "hard",
-    "question": "The Rolling Stones filmed a lavish 1968 TV special — never broadcast at the time — featuring The Who and John Lennon. What was it called?",
+    "question": "The Rolling Stones filmed a lavish 1968 TV special \u2014 never broadcast at the time \u2014 featuring The Who and John Lennon. What was it called?",
     "options": [
       "The Midnight Rambler Show",
       "Rock and Roll Circus",
@@ -871,7 +871,7 @@
     "type": "free_text",
     "category": "trivia",
     "difficulty": "medium",
-    "question": "Name the Rolling Stones' first UK number one single — a 1964 cover of a song originally recorded by Bobby Womack's group The Valentinos.",
+    "question": "Name the Rolling Stones' first UK number one single \u2014 a 1964 cover of a song originally recorded by Bobby Womack's group The Valentinos.",
     "answer": "It's All Over Now",
     "fuzzy": true,
     "points": 10
@@ -901,8 +901,392 @@
     "type": "free_text",
     "category": "trivia",
     "difficulty": "hard",
-    "question": "Name the band that first recorded 'Wild Horses' — featuring Gram Parsons — before the Rolling Stones released it on Sticky Fingers.",
+    "question": "Name the band that first recorded 'Wild Horses' \u2014 featuring Gram Parsons \u2014 before the Rolling Stones released it on Sticky Fingers.",
     "answer": "The Flying Burrito Brothers",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-alb-013",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Sticky Fingers was the first Rolling Stones album released on which record label?",
+    "options": [
+      "Rolling Stones Records",
+      "Decca Records",
+      "London Records",
+      "Atlantic Records"
+    ],
+    "answer": "Rolling Stones Records",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-014",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "Which jazz legend played saxophone on 'Waiting on a Friend' and 'Slave' from Tattoo You?",
+    "options": [
+      "Sonny Rollins",
+      "Stan Getz",
+      "Coleman Hawkins",
+      "Charlie Parker"
+    ],
+    "answer": "Sonny Rollins",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-015",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "Tattoo You spent how many weeks at No. 1 on the US Billboard 200?",
+    "options": [
+      "Nine",
+      "Four",
+      "Six",
+      "Twelve"
+    ],
+    "answer": "Nine",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-016",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "Which Rolling Stones album was recorded primarily at Dynamic Sound Studios in Kingston, Jamaica?",
+    "options": [
+      "Goats Head Soup",
+      "Exile on Main St.",
+      "Some Girls",
+      "Sticky Fingers"
+    ],
+    "answer": "Goats Head Soup",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-017",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "Who baked the elaborate wedding cake featured on the Let It Bleed cover, later becoming a famous British TV cook?",
+    "options": [
+      "Delia Smith",
+      "Nigella Lawson",
+      "Mary Berry",
+      "Fanny Craddock"
+    ],
+    "answer": "Delia Smith",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-018",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "The Exile on Main St. cover was created by which photographer, renowned for the documentary book 'The Americans'?",
+    "options": [
+      "Robert Frank",
+      "David Bailey",
+      "Annie Leibovitz",
+      "Richard Avedon"
+    ],
+    "answer": "Robert Frank",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-019",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Keith Richards sings lead vocal on which track from Exile on Main St.?",
+    "options": [
+      "Happy",
+      "Rocks Off",
+      "Tumbling Dice",
+      "Sweet Virginia"
+    ],
+    "answer": "Happy",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-020",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "Who played harmonica on 'Miss You' from Some Girls, having been discovered busking on the Paris M\u00e9tro?",
+    "options": [
+      "Sugar Blue",
+      "Little Walter",
+      "Paul Butterfield",
+      "Charlie Musselwhite"
+    ],
+    "answer": "Sugar Blue",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-021",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Beggars Banquet was the first Rolling Stones album produced by which producer, launching their most acclaimed run?",
+    "options": [
+      "Jimmy Miller",
+      "Andrew Loog Oldham",
+      "Chris Kimsey",
+      "Glyn Johns"
+    ],
+    "answer": "Jimmy Miller",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-022",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "Which guitarist played the electric slide guitar on 'Sister Morphine' from Sticky Fingers?",
+    "options": [
+      "Ry Cooder",
+      "Duane Allman",
+      "Eric Clapton",
+      "Lowell George"
+    ],
+    "answer": "Ry Cooder",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-023",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "On Some Girls, Mick Jagger and Keith Richards credited themselves as producers under what name?",
+    "options": [
+      "The Glimmer Twins",
+      "The Main Street Band",
+      "Jagger/Richards Productions",
+      "The Rolling Stones"
+    ],
+    "answer": "The Glimmer Twins",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-024",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Which Rolling Stones album displaced the Beatles' Abbey Road from the top of the UK albums chart in 1969?",
+    "options": [
+      "Let It Bleed",
+      "Beggars Banquet",
+      "Sticky Fingers",
+      "Exile on Main St."
+    ],
+    "answer": "Let It Bleed",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-025",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "The Rolling Stones' self-titled 1964 debut album peaked at what position on the US Billboard chart?",
+    "options": [
+      "No. 11",
+      "No. 1",
+      "No. 5",
+      "No. 24"
+    ],
+    "answer": "No. 11",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-026",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "The original Some Girls sleeve had to be redesigned after celebrities threatened legal action. Which of these was among those who objected?",
+    "options": [
+      "Lucille Ball",
+      "Diana Ross",
+      "Dolly Parton",
+      "Tina Turner"
+    ],
+    "answer": "Lucille Ball",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-027",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "Tattoo You's cover art won which category at the 1982 Grammy Awards?",
+    "options": [
+      "Best Album Package",
+      "Best Rock Vocal Performance",
+      "Best Engineered Recording",
+      "Best Album Notes"
+    ],
+    "answer": "Best Album Package",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-009",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "'You Can't Always Get What You Want' on Let It Bleed features the London ___ Choir.",
+    "answer": "Bach",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-010",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "The haunting female backing vocals on 'Gimme Shelter' were provided by Merry ___.",
+    "answer": "Clayton",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-011",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "The Exile on Main St. cover art was created by photographer Robert ___, famous for the book 'The Americans'.",
+    "answer": "Frank",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-012",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "Sticky Fingers was partly recorded at ___ Shoals Sound Studios in Alabama.",
+    "answer": "Muscle",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-013",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Goats Head Soup was recorded in Kingston, ___, as the band were tax exiles unable to return to Britain.",
+    "answer": "Jamaica",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-014",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "On Some Girls, the harmonica on 'Miss You' was played by ___ Blue, discovered busking on the Paris M\u00e9tro.",
+    "answer": "Sugar",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-015",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "The Rolling Stones' debut 1964 US album was subtitled 'England's Newest ___ Makers'.",
+    "answer": "Hit",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-016",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Jagger and Richards produced Some Girls under the pseudonym 'The ___ Twins'.",
+    "answer": "Glimmer",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-017",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "On Let It Bleed, producer Jimmy Miller played ___ on 'You Can't Always Get What You Want' because Charlie Watts couldn't achieve the desired rhythm.",
+    "answer": "drums",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-018",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Goats Head Soup was released in ___, making it the band's fifth consecutive No. 1 album in the UK.",
+    "answer": "1973",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-019",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "The opening track on Exile on Main St. is '___ Off'.",
+    "answer": "Rocks",
+    "points": 10
+  },
+  {
+    "id": "ft-alb-006",
+    "type": "free_text",
+    "category": "albums",
+    "difficulty": "easy",
+    "question": "Which Rolling Stones album was the first released on their own Rolling Stones Records label?",
+    "answer": "Sticky Fingers",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-alb-007",
+    "type": "free_text",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "Name the jazz saxophonist who played on 'Waiting on a Friend' and 'Slave' from Tattoo You.",
+    "answer": "Sonny Rollins",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-alb-008",
+    "type": "free_text",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "The Let It Bleed cover features an elaborate wedding cake baked by a then-unknown cook who later became a famous British TV chef. What is her name?",
+    "answer": "Delia Smith",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-alb-009",
+    "type": "free_text",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "Tattoo You was assembled largely from outtakes, including backing tracks recorded with which guitarist who had already left the band by the time of the album's release?",
+    "answer": "Mick Taylor",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-alb-010",
+    "type": "free_text",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "Which photographer created the collage artwork for the Exile on Main St. album cover?",
+    "answer": "Robert Frank",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-alb-011",
+    "type": "free_text",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "The Rolling Stones' debut self-titled album was released in the US on which record label?",
+    "answer": "London Records",
     "fuzzy": true,
     "points": 10
   }
