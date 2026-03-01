@@ -1,5 +1,5 @@
 export const CONFIG = {
-  questionsPerRound: 10,
+  questionsPerRound: 7,
   secondsPerQuestion: 30,
   basePoints: 10,
   maxSpeedBonus: 5,
@@ -7,7 +7,7 @@ export const CONFIG = {
   categoryWeights: {
     albums: 1,
     members: 1,
-    lyrics: 2,
+    lyrics: 0,
     trivia: 1,
   } as Record<string, number>,
 }
