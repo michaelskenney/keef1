@@ -46,8 +46,7 @@ export default function App() {
       questions: results.length,
       correct: results.filter(r => r.correct).length,
     })
-    loadLeaderboard()
-    setScreen('leaderboard')
+    await loadLeaderboard()
   }
 
   async function loadLeaderboard() {
