@@ -7,7 +7,7 @@ export const CONFIG = {
   categoryWeights: {
     albums: 1,
     members: 1,
-    lyrics: 0,
+    lyrics: 1,
     trivia: 1,
   } as Record<string, number>,
 }
