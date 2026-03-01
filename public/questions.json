@@ -1,88 +1,908 @@
 [
   {
-    "id": "mc-001",
+    "id": "mc-alb-001",
     "type": "multiple_choice",
     "category": "albums",
-    "question": "In what year was 'Exile on Main St.' released?",
-    "options": ["1969", "1972", "1974", "1978"],
-    "answer": "1972",
-    "points": 10
-  },
-  {
-    "id": "mc-002",
-    "type": "multiple_choice",
-    "category": "members",
-    "question": "Which guitarist replaced Brian Jones in the Rolling Stones?",
-    "options": ["Ron Wood", "Mick Taylor", "Keith Richards", "Nicky Hopkins"],
-    "answer": "Mick Taylor",
-    "points": 10
-  },
-  {
-    "id": "lb-001",
-    "type": "fill_blank",
-    "category": "lyrics",
-    "question": "Complete the lyric: 'Please allow me to introduce myself, I'm a man of ___ and taste'",
-    "answer": "wealth",
-    "points": 10
-  },
-  {
-    "id": "lb-002",
-    "type": "fill_blank",
-    "category": "lyrics",
-    "question": "Complete the lyric: 'I can't get no ___'",
-    "answer": "satisfaction",
-    "points": 10
-  },
-  {
-    "id": "ft-001",
-    "type": "free_text",
-    "category": "members",
-    "question": "What is the name of the Rolling Stones' longtime touring keyboardist known as 'the sixth Stone'?",
-    "answer": "Chuck Leavell",
-    "fuzzy": true,
-    "points": 10
-  },
-  {
-    "id": "ft-002",
-    "type": "free_text",
-    "category": "trivia",
-    "question": "On which London street did Mick Jagger and Keith Richards famously reconnect on a train platform in 1961?",
-    "answer": "Dartford",
-    "fuzzy": true,
-    "points": 10
-  },
-  {
-    "id": "mc-003",
-    "type": "multiple_choice",
-    "category": "albums",
-    "question": "What was the Rolling Stones' first UK number one single?",
-    "options": ["Paint It Black", "It's All Over Now", "The Last Time", "Satisfaction"],
-    "answer": "It's All Over Now",
-    "points": 10
-  },
-  {
-    "id": "mc-004",
-    "type": "multiple_choice",
-    "category": "trivia",
-    "question": "Which Rolling Stones album featured the song 'Wild Horses'?",
-    "options": ["Sticky Fingers", "Let It Bleed", "Beggars Banquet", "Goats Head Soup"],
+    "difficulty": "easy",
+    "question": "Which Rolling Stones album features 'Wild Horses' and 'Brown Sugar'?",
+    "options": [
+      "Beggars Banquet",
+      "Exile on Main St.",
+      "Sticky Fingers",
+      "Goats Head Soup"
+    ],
     "answer": "Sticky Fingers",
     "points": 10
   },
   {
-    "id": "lb-003",
-    "type": "fill_blank",
-    "category": "lyrics",
-    "question": "Complete the lyric: 'Hey! You! Get off of my ___'",
-    "answer": "cloud",
+    "id": "mc-alb-002",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "easy",
+    "question": "In what year was 'Exile on Main St.' released?",
+    "options": [
+      "1969",
+      "1971",
+      "1972",
+      "1974"
+    ],
+    "answer": "1972",
     "points": 10
   },
   {
-    "id": "ft-003",
+    "id": "mc-alb-003",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "easy",
+    "question": "Who designed the iconic 'Sticky Fingers' cover featuring a real working zipper?",
+    "options": [
+      "Salvador Dalí",
+      "Andy Warhol",
+      "Peter Blake",
+      "Storm Thorgerson"
+    ],
+    "answer": "Andy Warhol",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-004",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "easy",
+    "question": "'Sympathy for the Devil' and 'Street Fighting Man' both appear on which album?",
+    "options": [
+      "Their Satanic Majesties Request",
+      "Beggars Banquet",
+      "Let It Bleed",
+      "Sticky Fingers"
+    ],
+    "answer": "Beggars Banquet",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-005",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Which Rolling Stones album was the first composed entirely of original Jagger/Richards compositions?",
+    "options": [
+      "The Rolling Stones No. 2",
+      "Out of Our Heads",
+      "Aftermath",
+      "Between the Buttons"
+    ],
+    "answer": "Aftermath",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-006",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "'Gimme Shelter' and 'You Can't Always Get What You Want' both appear on which album?",
+    "options": [
+      "Beggars Banquet",
+      "Let It Bleed",
+      "Sticky Fingers",
+      "Exile on Main St."
+    ],
+    "answer": "Let It Bleed",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-007",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "What was on the original rejected cover of 'Beggars Banquet' that Decca Records refused to release?",
+    "options": [
+      "A bloody battlefield",
+      "A graffiti-covered toilet",
+      "A nude photo of the band",
+      "A burning American flag"
+    ],
+    "answer": "A graffiti-covered toilet",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-008",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Which Rolling Stones album contains 'Miss You', 'Beast of Burden', and 'Shattered'?",
+    "options": [
+      "Emotional Rescue",
+      "Black and Blue",
+      "Some Girls",
+      "Tattoo You"
+    ],
+    "answer": "Some Girls",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-009",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "'Start Me Up' and 'Waiting on a Friend' appear on which 1981 album?",
+    "options": [
+      "Dirty Work",
+      "Emotional Rescue",
+      "Some Girls",
+      "Tattoo You"
+    ],
+    "answer": "Tattoo You",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-010",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Which album was largely recorded in the basement of Keith Richards' rented mansion on the French Riviera?",
+    "options": [
+      "Goats Head Soup",
+      "Let It Bleed",
+      "Exile on Main St.",
+      "Sticky Fingers"
+    ],
+    "answer": "Exile on Main St.",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-011",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "Which Rolling Stones album features 'Dancing with Mr. D' and 'Angie'?",
+    "options": [
+      "It's Only Rock 'n' Roll",
+      "Goats Head Soup",
+      "Black and Blue",
+      "Exile on Main St."
+    ],
+    "answer": "Goats Head Soup",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-012",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "What is the Rolling Stones' 2023 album — their first record of original material since 'A Bigger Bang' in 2005?",
+    "options": [
+      "Blue & Lonesome",
+      "Bridges to Babylon",
+      "Hackney Diamonds",
+      "Steel Wheels"
+    ],
+    "answer": "Hackney Diamonds",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-001",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "easy",
+    "question": "The Rolling Stones' landmark 1972 double album is called 'Exile on ___ St.'",
+    "answer": "Main",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-002",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "easy",
+    "question": "The 1969 album '___ It Bleed' contains 'Gimme Shelter' and 'You Can't Always Get What You Want'.",
+    "answer": "Let",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-003",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "easy",
+    "question": "The Rolling Stones' 1968 album, named after an elegant dinner party invitation, is called '___ Banquet'.",
+    "answer": "Beggars",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-004",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "The 1966 album '___' was the first Rolling Stones LP composed entirely of Jagger/Richards originals.",
+    "answer": "Aftermath",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-005",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "The cover of 'Sticky Fingers' was designed by pop art legend Andy ___.",
+    "answer": "Warhol",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-006",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Exile on Main St. was recorded in the basement of Villa ___, Keith Richards' rented mansion on the French Riviera.",
+    "answer": "Nellcôte",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "fb-alb-007",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "The Rolling Stones' 1967 psychedelic album was titled 'Their ___ Majesties Request'.",
+    "answer": "Satanic",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-008",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "The Rolling Stones' 2023 album, their first without Charlie Watts on drums, is called 'Hackney ___'.",
+    "answer": "Diamonds",
+    "points": 10
+  },
+  {
+    "id": "ft-alb-001",
     "type": "free_text",
     "category": "albums",
-    "question": "Name the 1968 Rolling Stones album that marked their embrace of blues roots.",
-    "answer": "Beggars Banquet",
+    "difficulty": "easy",
+    "question": "Name the Rolling Stones album whose Andy Warhol-designed cover featured a real working zipper on a pair of jeans.",
+    "answer": "Sticky Fingers",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-alb-002",
+    "type": "free_text",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "On which Rolling Stones album does 'Tumbling Dice' appear?",
+    "answer": "Exile on Main St.",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-alb-003",
+    "type": "free_text",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Name the 1978 Rolling Stones album whose original sleeve had to be redesigned after celebrities including Lucille Ball sued over their likenesses being used without permission.",
+    "answer": "Some Girls",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-alb-004",
+    "type": "free_text",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "What is the name of the Keith Richards mansion on the French Riviera where Exile on Main St. was recorded?",
+    "answer": "Villa Nellcôte",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-alb-005",
+    "type": "free_text",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "Name the Rolling Stones album from 1967 that featured a 3D lenticular cover and marked their foray into psychedelia.",
+    "answer": "Their Satanic Majesties Request",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-mem-001",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "Which two Rolling Stones both grew up in Dartford, Kent and reconnected on a train platform in 1961?",
+    "options": [
+      "Charlie Watts and Bill Wyman",
+      "Mick Jagger and Brian Jones",
+      "Mick Jagger and Keith Richards",
+      "Keith Richards and Bill Wyman"
+    ],
+    "answer": "Mick Jagger and Keith Richards",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-002",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "How old was Brian Jones when he was found dead in his swimming pool in July 1969?",
+    "options": [
+      "25",
+      "27",
+      "29",
+      "31"
+    ],
+    "answer": "27",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-003",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "Who replaced Brian Jones as the Rolling Stones' lead guitarist in 1969?",
+    "options": [
+      "Ronnie Wood",
+      "Mick Taylor",
+      "Jeff Beck",
+      "Eric Clapton"
+    ],
+    "answer": "Mick Taylor",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-004",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "Which member left the Rolling Stones in 1993 after more than 30 years as the band's bassist?",
+    "options": [
+      "Brian Jones",
+      "Mick Taylor",
+      "Bill Wyman",
+      "Ronnie Wood"
+    ],
+    "answer": "Bill Wyman",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-005",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Before joining the Rolling Stones in 1975, Ronnie Wood was a member of which band?",
+    "options": [
+      "The Kinks",
+      "The Who",
+      "The Faces",
+      "The Yardbirds"
+    ],
+    "answer": "The Faces",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-006",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "What honor did Mick Jagger receive from the British Crown in 2003?",
+    "options": [
+      "An OBE",
+      "A CBE",
+      "A Knighthood",
+      "A Life Peerage"
+    ],
+    "answer": "A Knighthood",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-007",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "What subject did Charlie Watts study before becoming a professional musician?",
+    "options": [
+      "Law",
+      "Graphic design",
+      "Architecture",
+      "Music theory"
+    ],
+    "answer": "Graphic design",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-008",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Before the Rolling Stones, Mick Taylor played lead guitar with which band?",
+    "options": [
+      "The Animals",
+      "John Mayall's Bluesbreakers",
+      "Fleetwood Mac",
+      "The Pretty Things"
+    ],
+    "answer": "John Mayall's Bluesbreakers",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-009",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Keith Richards was famously arrested in Toronto in 1977 for possession of what?",
+    "options": [
+      "Cocaine",
+      "Marijuana",
+      "Heroin",
+      "LSD"
+    ],
+    "answer": "Heroin",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-010",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Brian Jones was a skilled multi-instrumentalist. Which exotic instrument did he play on 'Paint It Black'?",
+    "options": [
+      "Sitar",
+      "Oud",
+      "Tabla",
+      "Dulcimer"
+    ],
+    "answer": "Sitar",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-011",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Charlie Watts passed away in August 2021. Who replaced him as the Rolling Stones' drummer?",
+    "options": [
+      "Jim Keltner",
+      "Simon Kirke",
+      "Steve Jordan",
+      "Ringo Starr"
+    ],
+    "answer": "Steve Jordan",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-012",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Mick Jagger and Keith Richards reconnected in 1961 when Jagger was spotted carrying records on the platform of which train station?",
+    "options": [
+      "London Victoria",
+      "Paddington",
+      "Dartford",
+      "Charing Cross"
+    ],
+    "answer": "Dartford",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-001",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "Brian Jones played the ___ on 'Paint It Black', showing off his skills as a multi-instrumentalist.",
+    "answer": "sitar",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-002",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "After Charlie Watts' death in 2021, Steve ___ became the Rolling Stones' drummer.",
+    "answer": "Jordan",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-003",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "Mick Jagger's given first name is actually ___ Philip Jagger.",
+    "answer": "Michael",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-004",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Ronnie Wood replaced Mick ___ as the Rolling Stones' lead guitarist in 1975.",
+    "answer": "Taylor",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-005",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Keith Richards is famous for his use of open ___ tuning on a 5-string guitar.",
+    "answer": "G",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-006",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Bill Wyman was born William George ___ — he adopted his stage name early in his career.",
+    "answer": "Perks",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-007",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Before joining the Rolling Stones, Charlie Watts played with Alexis Korner's Blues ___.",
+    "answer": "Incorporated",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-008",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Brian Jones was born in ___, Gloucestershire — not Dartford like Jagger and Richards.",
+    "answer": "Cheltenham",
+    "points": 10
+  },
+  {
+    "id": "ft-mem-001",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "Name the original founder of the Rolling Stones who died in his swimming pool in July 1969 at age 27.",
+    "answer": "Brian Jones",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-mem-002",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Before joining the Rolling Stones in 1975, Ronnie Wood was a member of which famous British rock band?",
+    "answer": "The Faces",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-mem-003",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "What was Bill Wyman's real birth surname before he adopted his stage name?",
+    "answer": "Perks",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-mem-004",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Mick Taylor left the Rolling Stones in 1974. Name the band he played with before joining the Stones.",
+    "answer": "John Mayall's Bluesbreakers",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-mem-005",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Charlie Watts studied graphic design at which London art school before turning professional?",
+    "answer": "Harrow Art School",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-trv-001",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "The name 'Rolling Stones' was taken from a song by which blues musician?",
+    "options": [
+      "Robert Johnson",
+      "Muddy Waters",
+      "Howlin' Wolf",
+      "Sonny Boy Williamson"
+    ],
+    "answer": "Muddy Waters",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-002",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "At which 1969 free festival did a Hells Angels member fatally stab an audience member during a Rolling Stones performance?",
+    "options": [
+      "Woodstock",
+      "Isle of Wight",
+      "Altamont",
+      "Glastonbury"
+    ],
+    "answer": "Altamont",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-003",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "The Rolling Stones were pressured to change the lyrics of which song for their 1967 appearance on The Ed Sullivan Show?",
+    "options": [
+      "Satisfaction",
+      "Let's Spend the Night Together",
+      "Brown Sugar",
+      "Jumpin' Jack Flash"
+    ],
+    "answer": "Let's Spend the Night Together",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-004",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "The Rolling Stones held a free concert in Hyde Park in July 1969 shortly after Brian Jones died. What did Mick Jagger release in his memory?",
+    "options": [
+      "White doves",
+      "White butterflies",
+      "Red roses",
+      "Black balloons"
+    ],
+    "answer": "White butterflies",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-005",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "The Rolling Stones' first UK number one single (1964) was a cover of a Bobby Womack song. Which song was it?",
+    "options": [
+      "Come On",
+      "Not Fade Away",
+      "It's All Over Now",
+      "Little Red Rooster"
+    ],
+    "answer": "It's All Over Now",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-006",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "Brian Jones purchased Cotchford Farm in 1968 — previously the home of which beloved British author?",
+    "options": [
+      "Roald Dahl",
+      "A.A. Milne",
+      "P.G. Wodehouse",
+      "Rudyard Kipling"
+    ],
+    "answer": "A.A. Milne",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-007",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "Who was the Rolling Stones' first manager, credited with crafting their rebellious anti-Beatles image?",
+    "options": [
+      "Allen Klein",
+      "Peter Grant",
+      "Andrew Loog Oldham",
+      "Tony Calder"
+    ],
+    "answer": "Andrew Loog Oldham",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-008",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "What was the Rolling Stones' original UK record label?",
+    "options": [
+      "EMI",
+      "CBS",
+      "Decca",
+      "Parlophone"
+    ],
+    "answer": "Decca",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-009",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "'Wild Horses' was first recorded by which artist before the Rolling Stones released it on Sticky Fingers?",
+    "options": [
+      "The Flying Burrito Brothers",
+      "Crosby, Stills & Nash",
+      "Neil Young",
+      "The Byrds"
+    ],
+    "answer": "The Flying Burrito Brothers",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-010",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "The Rolling Stones founded their own label in 1971. What was it called?",
+    "options": [
+      "Stones Records",
+      "Rolling Stones Records",
+      "Exile Records",
+      "Tongue Records"
+    ],
+    "answer": "Rolling Stones Records",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-011",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "What was the name of the suppressed 1972 Robert Frank documentary that followed the Stones on their North American tour?",
+    "options": [
+      "Gimme Shelter",
+      "Cocksucker Blues",
+      "Ladies and Gentlemen",
+      "Shine a Light"
+    ],
+    "answer": "Cocksucker Blues",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-012",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "The Rolling Stones filmed a lavish 1968 TV special — never broadcast at the time — featuring The Who and John Lennon. What was it called?",
+    "options": [
+      "The Midnight Rambler Show",
+      "Rock and Roll Circus",
+      "Ladies and Gentlemen",
+      "The Stones at Wembley"
+    ],
+    "answer": "Rock and Roll Circus",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-001",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "The Rolling Stones took their name from a Muddy Waters song called 'Rollin' ___'.",
+    "answer": "Stone",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-002",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "The Rolling Stones' iconic 'tongue and lips' logo was designed by graphic artist John ___.",
+    "answer": "Pasche",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-003",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "The disastrous 1969 concert at ___ Speedway, intended to be a West Coast Woodstock, ended in tragedy.",
+    "answer": "Altamont",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-004",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "The Rolling Stones' first manager was Andrew Loog ___.",
+    "answer": "Oldham",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-005",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "Brian Jones purchased Cotchford Farm, the former home of Winnie the Pooh author A.A. ___.",
+    "answer": "Milne",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-006",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "The Rolling Stones' original UK label was ___ Records, which they had a famously bitter split with.",
+    "answer": "Decca",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-007",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "The Rolling Stones' 1968 unaired TV special featured John Lennon and The Who, and was called 'The Rolling Stones Rock and Roll ___'.",
+    "answer": "Circus",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-008",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "The suppressed 1972 Robert Frank tour documentary is titled '___ Blues'.",
+    "answer": "Cocksucker",
+    "points": 10
+  },
+  {
+    "id": "ft-trv-001",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "What was the name of the 1969 free concert where a Hells Angels member fatally stabbed an audience member during the Rolling Stones' set?",
+    "answer": "Altamont",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-trv-002",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "Name the Rolling Stones' first UK number one single — a 1964 cover of a song originally recorded by Bobby Womack's group The Valentinos.",
+    "answer": "It's All Over Now",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-trv-003",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "Who was the Rolling Stones' first manager, the young impresario who deliberately positioned them as the rebellious alternative to The Beatles?",
+    "answer": "Andrew Loog Oldham",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-trv-004",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "Brian Jones bought Cotchford Farm in 1968. Which author had lived there and written his most famous works in its grounds?",
+    "answer": "A.A. Milne",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-trv-005",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "Name the band that first recorded 'Wild Horses' — featuring Gram Parsons — before the Rolling Stones released it on Sticky Fingers.",
+    "answer": "The Flying Burrito Brothers",
     "fuzzy": true,
     "points": 10
   }
