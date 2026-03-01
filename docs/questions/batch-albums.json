@@ -1,0 +1,245 @@
+[
+  {
+    "id": "mc-alb-001",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "easy",
+    "question": "Which Rolling Stones album features 'Wild Horses' and 'Brown Sugar'?",
+    "options": ["Beggars Banquet", "Exile on Main St.", "Sticky Fingers", "Goats Head Soup"],
+    "answer": "Sticky Fingers",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-002",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "easy",
+    "question": "In what year was 'Exile on Main St.' released?",
+    "options": ["1969", "1971", "1972", "1974"],
+    "answer": "1972",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-003",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "easy",
+    "question": "Who designed the iconic 'Sticky Fingers' cover featuring a real working zipper?",
+    "options": ["Salvador Dalí", "Andy Warhol", "Peter Blake", "Storm Thorgerson"],
+    "answer": "Andy Warhol",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-004",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "easy",
+    "question": "'Sympathy for the Devil' and 'Street Fighting Man' both appear on which album?",
+    "options": ["Their Satanic Majesties Request", "Beggars Banquet", "Let It Bleed", "Sticky Fingers"],
+    "answer": "Beggars Banquet",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-005",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Which Rolling Stones album was the first composed entirely of original Jagger/Richards compositions?",
+    "options": ["The Rolling Stones No. 2", "Out of Our Heads", "Aftermath", "Between the Buttons"],
+    "answer": "Aftermath",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-006",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "'Gimme Shelter' and 'You Can't Always Get What You Want' both appear on which album?",
+    "options": ["Beggars Banquet", "Let It Bleed", "Sticky Fingers", "Exile on Main St."],
+    "answer": "Let It Bleed",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-007",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "What was on the original rejected cover of 'Beggars Banquet' that Decca Records refused to release?",
+    "options": ["A bloody battlefield", "A graffiti-covered toilet", "A nude photo of the band", "A burning American flag"],
+    "answer": "A graffiti-covered toilet",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-008",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Which Rolling Stones album contains 'Miss You', 'Beast of Burden', and 'Shattered'?",
+    "options": ["Emotional Rescue", "Black and Blue", "Some Girls", "Tattoo You"],
+    "answer": "Some Girls",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-009",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "'Start Me Up' and 'Waiting on a Friend' appear on which 1981 album?",
+    "options": ["Dirty Work", "Emotional Rescue", "Some Girls", "Tattoo You"],
+    "answer": "Tattoo You",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-010",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Which album was largely recorded in the basement of Keith Richards' rented mansion on the French Riviera?",
+    "options": ["Goats Head Soup", "Let It Bleed", "Exile on Main St.", "Sticky Fingers"],
+    "answer": "Exile on Main St.",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-011",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "Which Rolling Stones album features 'Dancing with Mr. D' and 'Angie'?",
+    "options": ["It's Only Rock 'n' Roll", "Goats Head Soup", "Black and Blue", "Exile on Main St."],
+    "answer": "Goats Head Soup",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-012",
+    "type": "multiple_choice",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "What is the Rolling Stones' 2023 album — their first record of original material since 'A Bigger Bang' in 2005?",
+    "options": ["Blue & Lonesome", "Bridges to Babylon", "Hackney Diamonds", "Steel Wheels"],
+    "answer": "Hackney Diamonds",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-001",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "easy",
+    "question": "The Rolling Stones' landmark 1972 double album is called 'Exile on ___ St.'",
+    "answer": "Main",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-002",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "easy",
+    "question": "The 1969 album '___ It Bleed' contains 'Gimme Shelter' and 'You Can't Always Get What You Want'.",
+    "answer": "Let",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-003",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "easy",
+    "question": "The Rolling Stones' 1968 album, named after an elegant dinner party invitation, is called '___ Banquet'.",
+    "answer": "Beggars",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-004",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "The 1966 album '___' was the first Rolling Stones LP composed entirely of Jagger/Richards originals.",
+    "answer": "Aftermath",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-005",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "The cover of 'Sticky Fingers' was designed by pop art legend Andy ___.",
+    "answer": "Warhol",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-006",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Exile on Main St. was recorded in the basement of Villa ___, Keith Richards' rented mansion on the French Riviera.",
+    "answer": "Nellcôte",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "fb-alb-007",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "The Rolling Stones' 1967 psychedelic album was titled 'Their ___ Majesties Request'.",
+    "answer": "Satanic",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-008",
+    "type": "fill_blank",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "The Rolling Stones' 2023 album, their first without Charlie Watts on drums, is called 'Hackney ___'.",
+    "answer": "Diamonds",
+    "points": 10
+  },
+  {
+    "id": "ft-alb-001",
+    "type": "free_text",
+    "category": "albums",
+    "difficulty": "easy",
+    "question": "Name the Rolling Stones album whose Andy Warhol-designed cover featured a real working zipper on a pair of jeans.",
+    "answer": "Sticky Fingers",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-alb-002",
+    "type": "free_text",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "On which Rolling Stones album does 'Tumbling Dice' appear?",
+    "answer": "Exile on Main St.",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-alb-003",
+    "type": "free_text",
+    "category": "albums",
+    "difficulty": "medium",
+    "question": "Name the 1978 Rolling Stones album whose original sleeve had to be redesigned after celebrities including Lucille Ball sued over their likenesses being used without permission.",
+    "answer": "Some Girls",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-alb-004",
+    "type": "free_text",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "What is the name of the Keith Richards mansion on the French Riviera where Exile on Main St. was recorded?",
+    "answer": "Villa Nellcôte",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-alb-005",
+    "type": "free_text",
+    "category": "albums",
+    "difficulty": "hard",
+    "question": "Name the Rolling Stones album from 1967 that featured a 3D lenticular cover and marked their foray into psychedelia.",
+    "answer": "Their Satanic Majesties Request",
+    "fuzzy": true,
+    "points": 10
+  }
+]
