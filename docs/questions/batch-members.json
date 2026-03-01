@@ -1,0 +1,244 @@
+[
+  {
+    "id": "mc-mem-001",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "Which two Rolling Stones both grew up in Dartford, Kent and reconnected on a train platform in 1961?",
+    "options": ["Charlie Watts and Bill Wyman", "Mick Jagger and Brian Jones", "Mick Jagger and Keith Richards", "Keith Richards and Bill Wyman"],
+    "answer": "Mick Jagger and Keith Richards",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-002",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "How old was Brian Jones when he was found dead in his swimming pool in July 1969?",
+    "options": ["25", "27", "29", "31"],
+    "answer": "27",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-003",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "Who replaced Brian Jones as the Rolling Stones' lead guitarist in 1969?",
+    "options": ["Ronnie Wood", "Mick Taylor", "Jeff Beck", "Eric Clapton"],
+    "answer": "Mick Taylor",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-004",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "Which member left the Rolling Stones in 1993 after more than 30 years as the band's bassist?",
+    "options": ["Brian Jones", "Mick Taylor", "Bill Wyman", "Ronnie Wood"],
+    "answer": "Bill Wyman",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-005",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Before joining the Rolling Stones in 1975, Ronnie Wood was a member of which band?",
+    "options": ["The Kinks", "The Who", "The Faces", "The Yardbirds"],
+    "answer": "The Faces",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-006",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "What honor did Mick Jagger receive from the British Crown in 2003?",
+    "options": ["An OBE", "A CBE", "A Knighthood", "A Life Peerage"],
+    "answer": "A Knighthood",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-007",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "What subject did Charlie Watts study before becoming a professional musician?",
+    "options": ["Law", "Graphic design", "Architecture", "Music theory"],
+    "answer": "Graphic design",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-008",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Before the Rolling Stones, Mick Taylor played lead guitar with which band?",
+    "options": ["The Animals", "John Mayall's Bluesbreakers", "Fleetwood Mac", "The Pretty Things"],
+    "answer": "John Mayall's Bluesbreakers",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-009",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Keith Richards was famously arrested in Toronto in 1977 for possession of what?",
+    "options": ["Cocaine", "Marijuana", "Heroin", "LSD"],
+    "answer": "Heroin",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-010",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Brian Jones was a skilled multi-instrumentalist. Which exotic instrument did he play on 'Paint It Black'?",
+    "options": ["Sitar", "Oud", "Tabla", "Dulcimer"],
+    "answer": "Sitar",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-011",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Charlie Watts passed away in August 2021. Who replaced him as the Rolling Stones' drummer?",
+    "options": ["Jim Keltner", "Simon Kirke", "Steve Jordan", "Ringo Starr"],
+    "answer": "Steve Jordan",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-012",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Mick Jagger and Keith Richards reconnected in 1961 when Jagger was spotted carrying records on the platform of which train station?",
+    "options": ["London Victoria", "Paddington", "Dartford", "Charing Cross"],
+    "answer": "Dartford",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-001",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "Brian Jones played the ___ on 'Paint It Black', showing off his skills as a multi-instrumentalist.",
+    "answer": "sitar",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-002",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "After Charlie Watts' death in 2021, Steve ___ became the Rolling Stones' drummer.",
+    "answer": "Jordan",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-003",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "Mick Jagger's given first name is actually ___ Philip Jagger.",
+    "answer": "Michael",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-004",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Ronnie Wood replaced Mick ___ as the Rolling Stones' lead guitarist in 1975.",
+    "answer": "Taylor",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-005",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Keith Richards is famous for his use of open ___ tuning on a 5-string guitar.",
+    "answer": "G",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-006",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Bill Wyman was born William George ___ — he adopted his stage name early in his career.",
+    "answer": "Perks",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-007",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Before joining the Rolling Stones, Charlie Watts played with Alexis Korner's Blues ___.",
+    "answer": "Incorporated",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-008",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Brian Jones was born in ___, Gloucestershire — not Dartford like Jagger and Richards.",
+    "answer": "Cheltenham",
+    "points": 10
+  },
+  {
+    "id": "ft-mem-001",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "Name the original founder of the Rolling Stones who died in his swimming pool in July 1969 at age 27.",
+    "answer": "Brian Jones",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-mem-002",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Before joining the Rolling Stones in 1975, Ronnie Wood was a member of which famous British rock band?",
+    "answer": "The Faces",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-mem-003",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "What was Bill Wyman's real birth surname before he adopted his stage name?",
+    "answer": "Perks",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-mem-004",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Mick Taylor left the Rolling Stones in 1974. Name the band he played with before joining the Stones.",
+    "answer": "John Mayall's Bluesbreakers",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-mem-005",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Charlie Watts studied graphic design at which London art school before turning professional?",
+    "answer": "Harrow Art School",
+    "fuzzy": true,
+    "points": 10
+  }
+]
