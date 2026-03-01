@@ -82,7 +82,7 @@ export function QuizScreen({ questions, onComplete }: Props) {
 
       <TimerBar timeRemaining={timeRemaining} totalTime={CONFIG.secondsPerQuestion} />
 
-      <QuestionCard question={currentQuestion} onAnswer={handleAnswer} disabled={answered} />
+      <QuestionCard key={currentQuestion.id} question={currentQuestion} onAnswer={handleAnswer} disabled={answered} />
 
       {lastResult && (
         <div style={{
