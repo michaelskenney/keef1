@@ -38,6 +38,9 @@ export function HomeScreen({ onStart, onLeaderboard }: Props) {
           Leaderboard
         </button>
       </div>
+      <p style={{ fontSize: 12, opacity: 0.4, margin: 0 }}>
+        v{__APP_VERSION__} · Updated {__BUILD_DATE__}
+      </p>
     </div>
   )
 }
