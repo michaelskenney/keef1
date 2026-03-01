@@ -34,4 +34,12 @@ describe('getWeekStart', () => {
     expect(label).toBe('March 9, 2026')
     expect(iso).toBe('2026-03-09T04:01:00.000Z') // Monday 00:01 EDT = 04:01 UTC
   })
+
+  it('returns current Monday when called before 00:01 AM on Monday (EST)', () => {
+    // Monday 2026-03-02 at 12:30 AM ET = 2026-03-02T05:30:00Z
+    const mondayBeforeCutoff = new Date('2026-03-02T05:30:00Z')
+    const { iso, label } = getWeekStart(mondayBeforeCutoff)
+    expect(label).toBe('March 2, 2026')
+    expect(iso).toBe('2026-03-02T05:01:00.000Z')
+  })
 })
