@@ -15,6 +15,7 @@ export default function App() {
   const [allQuestions, setAllQuestions] = useState<Question[]>([])
   const [results, setResults] = useState<AnsweredQuestion[]>([])
   const [leaderboard, setLeaderboard] = useState<LeaderboardEntry[]>([])
+  const [weekLabel, setWeekLabel] = useState('')
   const [lbLoading, setLbLoading] = useState(false)
 
   useEffect(() => {
@@ -52,8 +53,9 @@ export default function App() {
   async function loadLeaderboard() {
     setLbLoading(true)
     setScreen('leaderboard')
-    const entries = await fetchLeaderboard()
+    const { entries, weekLabel: label } = await fetchLeaderboard()
     setLeaderboard(entries)
+    setWeekLabel(label)
     setLbLoading(false)
   }
 
@@ -83,6 +85,7 @@ export default function App() {
           entries={leaderboard}
           currentNickname={nickname || null}
           loading={lbLoading}
+          weekLabel={weekLabel}
           onPlayAgain={playAgain}
         />
       )}
