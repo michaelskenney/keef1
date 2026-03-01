@@ -28,7 +28,7 @@ export interface FreeTextQuestion extends BaseQuestion {
 export interface ImageQuestion extends BaseQuestion {
   type: 'image'
   image: string
-  fuzzy: boolean
+  options: string[]
 }
 
 export type Question =

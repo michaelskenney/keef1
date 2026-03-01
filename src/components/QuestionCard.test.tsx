@@ -24,6 +24,17 @@ const ftQuestion: Question = {
   points: 10,
 }
 
+const imageQuestion: Question = {
+  id: 'img-1',
+  type: 'image',
+  category: 'members',
+  question: 'Who is pictured?',
+  image: 'https://upload.wikimedia.org/wikipedia/commons/test/img.jpg',
+  options: ['Mick Jagger', 'Keith Richards', 'Ronnie Wood', 'Charlie Watts'],
+  answer: 'Keith Richards',
+  points: 10,
+}
+
 describe('QuestionCard', () => {
   it('renders multiple choice options as buttons', () => {
     render(<QuestionCard question={mcQuestion} onAnswer={vi.fn()} disabled={false} />)
@@ -55,5 +66,18 @@ describe('QuestionCard', () => {
   it('disables inputs when disabled=true', () => {
     render(<QuestionCard question={mcQuestion} onAnswer={vi.fn()} disabled={true} />)
     screen.getAllByRole('button').forEach(btn => expect(btn).toBeDisabled())
+  })
+
+  it('renders image and MC buttons for image type questions', () => {
+    render(<QuestionCard question={imageQuestion} onAnswer={vi.fn()} disabled={false} />)
+    expect(screen.getByRole('img')).toBeInTheDocument()
+    expect(screen.getByRole('img')).toHaveAttribute('src', imageQuestion.image)
+    expect(screen.getAllByRole('button')).toHaveLength(4)
+    expect(screen.getByText('Keith Richards')).toBeInTheDocument()
+  })
+
+  it('does not show text input for image type questions', () => {
+    render(<QuestionCard question={imageQuestion} onAnswer={vi.fn()} disabled={false} />)
+    expect(screen.queryByRole('textbox')).not.toBeInTheDocument()
   })
 })

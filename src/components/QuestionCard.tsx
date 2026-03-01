@@ -29,7 +29,7 @@ export function QuestionCard({ question, onAnswer, disabled }: Props) {
         {question.question}
       </p>
 
-      {question.type === 'multiple_choice' && (
+      {(question.type === 'multiple_choice' || question.type === 'image') && (
         <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
           {question.options.map(opt => (
             <button
@@ -45,7 +45,7 @@ export function QuestionCard({ question, onAnswer, disabled }: Props) {
         </div>
       )}
 
-      {(question.type === 'fill_blank' || question.type === 'free_text' || question.type === 'image') && (
+      {(question.type === 'fill_blank' || question.type === 'free_text') && (
         <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
           <input
             type="text"
