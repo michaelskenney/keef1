@@ -1,0 +1,244 @@
+[
+  {
+    "id": "mc-trv-001",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "The name 'Rolling Stones' was taken from a song by which blues musician?",
+    "options": ["Robert Johnson", "Muddy Waters", "Howlin' Wolf", "Sonny Boy Williamson"],
+    "answer": "Muddy Waters",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-002",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "At which 1969 free festival did a Hells Angels member fatally stab an audience member during a Rolling Stones performance?",
+    "options": ["Woodstock", "Isle of Wight", "Altamont", "Glastonbury"],
+    "answer": "Altamont",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-003",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "The Rolling Stones were pressured to change the lyrics of which song for their 1967 appearance on The Ed Sullivan Show?",
+    "options": ["Satisfaction", "Let's Spend the Night Together", "Brown Sugar", "Jumpin' Jack Flash"],
+    "answer": "Let's Spend the Night Together",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-004",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "The Rolling Stones held a free concert in Hyde Park in July 1969 shortly after Brian Jones died. What did Mick Jagger release in his memory?",
+    "options": ["White doves", "White butterflies", "Red roses", "Black balloons"],
+    "answer": "White butterflies",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-005",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "The Rolling Stones' first UK number one single (1964) was a cover of a Bobby Womack song. Which song was it?",
+    "options": ["Come On", "Not Fade Away", "It's All Over Now", "Little Red Rooster"],
+    "answer": "It's All Over Now",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-006",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "Brian Jones purchased Cotchford Farm in 1968 — previously the home of which beloved British author?",
+    "options": ["Roald Dahl", "A.A. Milne", "P.G. Wodehouse", "Rudyard Kipling"],
+    "answer": "A.A. Milne",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-007",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "Who was the Rolling Stones' first manager, credited with crafting their rebellious anti-Beatles image?",
+    "options": ["Allen Klein", "Peter Grant", "Andrew Loog Oldham", "Tony Calder"],
+    "answer": "Andrew Loog Oldham",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-008",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "What was the Rolling Stones' original UK record label?",
+    "options": ["EMI", "CBS", "Decca", "Parlophone"],
+    "answer": "Decca",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-009",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "'Wild Horses' was first recorded by which artist before the Rolling Stones released it on Sticky Fingers?",
+    "options": ["The Flying Burrito Brothers", "Crosby, Stills & Nash", "Neil Young", "The Byrds"],
+    "answer": "The Flying Burrito Brothers",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-010",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "The Rolling Stones founded their own label in 1971. What was it called?",
+    "options": ["Stones Records", "Rolling Stones Records", "Exile Records", "Tongue Records"],
+    "answer": "Rolling Stones Records",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-011",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "What was the name of the suppressed 1972 Robert Frank documentary that followed the Stones on their North American tour?",
+    "options": ["Gimme Shelter", "Cocksucker Blues", "Ladies and Gentlemen", "Shine a Light"],
+    "answer": "Cocksucker Blues",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-012",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "The Rolling Stones filmed a lavish 1968 TV special — never broadcast at the time — featuring The Who and John Lennon. What was it called?",
+    "options": ["The Midnight Rambler Show", "Rock and Roll Circus", "Ladies and Gentlemen", "The Stones at Wembley"],
+    "answer": "Rock and Roll Circus",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-001",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "The Rolling Stones took their name from a Muddy Waters song called 'Rollin' ___'.",
+    "answer": "Stone",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-002",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "The Rolling Stones' iconic 'tongue and lips' logo was designed by graphic artist John ___.",
+    "answer": "Pasche",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-003",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "The disastrous 1969 concert at ___ Speedway, intended to be a West Coast Woodstock, ended in tragedy.",
+    "answer": "Altamont",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-004",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "The Rolling Stones' first manager was Andrew Loog ___.",
+    "answer": "Oldham",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-005",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "Brian Jones purchased Cotchford Farm, the former home of Winnie the Pooh author A.A. ___.",
+    "answer": "Milne",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-006",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "The Rolling Stones' original UK label was ___ Records, which they had a famously bitter split with.",
+    "answer": "Decca",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-007",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "The Rolling Stones' 1968 unaired TV special featured John Lennon and The Who, and was called 'The Rolling Stones Rock and Roll ___'.",
+    "answer": "Circus",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-008",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "The suppressed 1972 Robert Frank tour documentary is titled '___ Blues'.",
+    "answer": "Cocksucker",
+    "points": 10
+  },
+  {
+    "id": "ft-trv-001",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "What was the name of the 1969 free concert where a Hells Angels member fatally stabbed an audience member during the Rolling Stones' set?",
+    "answer": "Altamont",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-trv-002",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "Name the Rolling Stones' first UK number one single — a 1964 cover of a song originally recorded by Bobby Womack's group The Valentinos.",
+    "answer": "It's All Over Now",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-trv-003",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "Who was the Rolling Stones' first manager, the young impresario who deliberately positioned them as the rebellious alternative to The Beatles?",
+    "answer": "Andrew Loog Oldham",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-trv-004",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "Brian Jones bought Cotchford Farm in 1968. Which author had lived there and written his most famous works in its grounds?",
+    "answer": "A.A. Milne",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-trv-005",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "Name the band that first recorded 'Wild Horses' — featuring Gram Parsons — before the Rolling Stones released it on Sticky Fingers.",
+    "answer": "The Flying Burrito Brothers",
+    "fuzzy": true,
+    "points": 10
+  }
+]
