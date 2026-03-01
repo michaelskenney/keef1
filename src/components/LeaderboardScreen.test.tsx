@@ -10,19 +10,24 @@ const entries: LeaderboardEntry[] = [
 
 describe('LeaderboardScreen', () => {
   it('renders entries in order', () => {
-    render(<LeaderboardScreen entries={entries} currentNickname={null} loading={false} onPlayAgain={vi.fn()} />)
+    render(<LeaderboardScreen entries={entries} currentNickname={null} loading={false} onPlayAgain={vi.fn()} weekLabel="February 23, 2026" />)
     const items = screen.getAllByRole('listitem')
     expect(items[0]).toHaveTextContent('Keef')
     expect(items[1]).toHaveTextContent('Mick')
   })
 
   it('highlights current player', () => {
-    render(<LeaderboardScreen entries={entries} currentNickname="Keef" loading={false} onPlayAgain={vi.fn()} />)
+    render(<LeaderboardScreen entries={entries} currentNickname="Keef" loading={false} onPlayAgain={vi.fn()} weekLabel="February 23, 2026" />)
     expect(screen.getByText('Keef').closest('li')?.getAttribute('style')).toContain('var(--red)')
   })
 
   it('shows loading state', () => {
-    render(<LeaderboardScreen entries={[]} currentNickname={null} loading={true} onPlayAgain={vi.fn()} />)
+    render(<LeaderboardScreen entries={[]} currentNickname={null} loading={true} onPlayAgain={vi.fn()} weekLabel="February 23, 2026" />)
     expect(screen.getByText(/loading/i)).toBeInTheDocument()
+  })
+
+  it('displays the week label subtitle', () => {
+    render(<LeaderboardScreen entries={entries} currentNickname={null} loading={false} onPlayAgain={vi.fn()} weekLabel="March 2, 2026" />)
+    expect(screen.getByText('High scores for the week of March 2, 2026')).toBeInTheDocument()
   })
 })

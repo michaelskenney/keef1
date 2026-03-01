@@ -5,12 +5,16 @@ interface Props {
   currentNickname: string | null
   loading: boolean
   onPlayAgain: () => void
+  weekLabel: string
 }
 
-export function LeaderboardScreen({ entries, currentNickname, loading, onPlayAgain }: Props) {
+export function LeaderboardScreen({ entries, currentNickname, loading, onPlayAgain, weekLabel }: Props) {
   return (
     <div className="screen">
       <h2 style={{ fontSize: 'var(--font-size-xl)', fontWeight: 900 }}>Leaderboard</h2>
+      <p style={{ color: 'var(--muted)', fontSize: 13, marginTop: -4 }}>
+        High scores for the week of {weekLabel}
+      </p>
 
       {loading ? (
         <p style={{ color: 'var(--muted)' }}>Loading…</p>
