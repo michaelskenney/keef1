@@ -2039,5 +2039,380 @@
     "answer": "U2",
     "fuzzy": true,
     "points": 10
+  },
+  {
+    "id": "img-bill-wyman-01",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/bill-wyman-01.jpg",
+    "options": [
+      "Bill Wyman",
+      "Keith Richards",
+      "Mick Jagger",
+      "Ron Wood"
+    ],
+    "answer": "Bill Wyman",
+    "points": 10
+  },
+  {
+    "id": "img-bill-wyman-02",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/bill-wyman-02.jpg",
+    "options": [
+      "Bill Wyman",
+      "Brian Jones",
+      "Charlie Watts",
+      "Mick Taylor"
+    ],
+    "answer": "Bill Wyman",
+    "points": 10
+  },
+  {
+    "id": "img-brian-jones-01",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/brian-jones-01.jpg",
+    "options": [
+      "Brian Jones",
+      "Keith Richards",
+      "Mick Jagger",
+      "Ron Wood"
+    ],
+    "answer": "Brian Jones",
+    "points": 10
+  },
+  {
+    "id": "img-brian-jones-02",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/brian-jones-02.jpg",
+    "options": [
+      "Bill Wyman",
+      "Brian Jones",
+      "Charlie Watts",
+      "Mick Taylor"
+    ],
+    "answer": "Brian Jones",
+    "points": 10
+  },
+  {
+    "id": "img-charlie-watts-01",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/charlie-watts-01.jpg",
+    "options": [
+      "Charlie Watts",
+      "Keith Richards",
+      "Mick Jagger",
+      "Ron Wood"
+    ],
+    "answer": "Charlie Watts",
+    "points": 10
+  },
+  {
+    "id": "img-charlie-watts-02",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/charlie-watts-02.jpg",
+    "options": [
+      "Bill Wyman",
+      "Brian Jones",
+      "Charlie Watts",
+      "Mick Taylor"
+    ],
+    "answer": "Charlie Watts",
+    "points": 10
+  },
+  {
+    "id": "img-charlie-watts-03",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/charlie-watts-03.jpg",
+    "options": [
+      "Charlie Watts",
+      "Darryl Jones",
+      "Mick Jagger",
+      "Steve Jordan"
+    ],
+    "answer": "Charlie Watts",
+    "points": 10
+  },
+  {
+    "id": "img-darryl-jones-01",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/darryl-jones-01.jpg",
+    "options": [
+      "Darryl Jones",
+      "Keith Richards",
+      "Mick Jagger",
+      "Ron Wood"
+    ],
+    "answer": "Darryl Jones",
+    "points": 10
+  },
+  {
+    "id": "img-darryl-jones-02",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/darryl-jones-02.jpg",
+    "options": [
+      "Bill Wyman",
+      "Brian Jones",
+      "Charlie Watts",
+      "Darryl Jones"
+    ],
+    "answer": "Darryl Jones",
+    "points": 10
+  },
+  {
+    "id": "img-mick-jagger-01",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/mick-jagger-01.jpg",
+    "options": [
+      "Charlie Watts",
+      "Keith Richards",
+      "Mick Jagger",
+      "Ron Wood"
+    ],
+    "answer": "Mick Jagger",
+    "points": 10
+  },
+  {
+    "id": "img-mick-jagger-02",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/mick-jagger-02.jpg",
+    "options": [
+      "Bill Wyman",
+      "Brian Jones",
+      "Mick Jagger",
+      "Mick Taylor"
+    ],
+    "answer": "Mick Jagger",
+    "points": 10
+  },
+  {
+    "id": "img-mick-jagger-03",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/mick-jagger-03.jpg",
+    "options": [
+      "Darryl Jones",
+      "Keith Richards",
+      "Mick Jagger",
+      "Steve Jordan"
+    ],
+    "answer": "Mick Jagger",
+    "points": 10
+  },
+  {
+    "id": "img-mick-jagger-04",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/mick-jagger-04.jpg",
+    "options": [
+      "Bill Wyman",
+      "Charlie Watts",
+      "Mick Jagger",
+      "Ron Wood"
+    ],
+    "answer": "Mick Jagger",
+    "points": 10
+  },
+  {
+    "id": "img-mick-jagger-05",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/mick-jagger-05.jpg",
+    "options": [
+      "Brian Jones",
+      "Darryl Jones",
+      "Mick Jagger",
+      "Mick Taylor"
+    ],
+    "answer": "Mick Jagger",
+    "points": 10
+  },
+  {
+    "id": "img-keith-richards-01",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/keith-richards-01.jpg",
+    "options": [
+      "Charlie Watts",
+      "Keith Richards",
+      "Mick Jagger",
+      "Ron Wood"
+    ],
+    "answer": "Keith Richards",
+    "points": 10
+  },
+  {
+    "id": "img-keith-richards-02",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/keith-richards-02.jpg",
+    "options": [
+      "Bill Wyman",
+      "Brian Jones",
+      "Keith Richards",
+      "Mick Taylor"
+    ],
+    "answer": "Keith Richards",
+    "points": 10
+  },
+  {
+    "id": "img-keith-richards-03",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/keith-richards-03.jpg",
+    "options": [
+      "Darryl Jones",
+      "Keith Richards",
+      "Mick Jagger",
+      "Steve Jordan"
+    ],
+    "answer": "Keith Richards",
+    "points": 10
+  },
+  {
+    "id": "img-keith-richards-04",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/keith-richards-04.jpg",
+    "options": [
+      "Bill Wyman",
+      "Charlie Watts",
+      "Keith Richards",
+      "Ron Wood"
+    ],
+    "answer": "Keith Richards",
+    "points": 10
+  },
+  {
+    "id": "img-keith-richards-05",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/keith-richards-05.jpg",
+    "options": [
+      "Brian Jones",
+      "Darryl Jones",
+      "Keith Richards",
+      "Mick Taylor"
+    ],
+    "answer": "Keith Richards",
+    "points": 10
+  },
+  {
+    "id": "img-mick-taylor-01",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/mick-taylor-01.jpg",
+    "options": [
+      "Keith Richards",
+      "Mick Jagger",
+      "Mick Taylor",
+      "Ron Wood"
+    ],
+    "answer": "Mick Taylor",
+    "points": 10
+  },
+  {
+    "id": "img-mick-taylor-02",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/mick-taylor-02.jpg",
+    "options": [
+      "Bill Wyman",
+      "Brian Jones",
+      "Charlie Watts",
+      "Mick Taylor"
+    ],
+    "answer": "Mick Taylor",
+    "points": 10
+  },
+  {
+    "id": "img-ron-wood-01",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/ron-wood-01.jpg",
+    "options": [
+      "Charlie Watts",
+      "Keith Richards",
+      "Mick Jagger",
+      "Ron Wood"
+    ],
+    "answer": "Ron Wood",
+    "points": 10
+  },
+  {
+    "id": "img-ron-wood-02",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/ron-wood-02.jpg",
+    "options": [
+      "Bill Wyman",
+      "Brian Jones",
+      "Mick Taylor",
+      "Ron Wood"
+    ],
+    "answer": "Ron Wood",
+    "points": 10
+  },
+  {
+    "id": "img-ron-wood-03",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/ron-wood-03.jpg",
+    "options": [
+      "Darryl Jones",
+      "Mick Jagger",
+      "Ron Wood",
+      "Steve Jordan"
+    ],
+    "answer": "Ron Wood",
+    "points": 10
+  },
+  {
+    "id": "img-steve-jordan-01",
+    "type": "image",
+    "category": "members",
+    "question": "Who is this Rolling Stone?",
+    "image": "/images/members/steve-jordan-01.jpg",
+    "options": [
+      "Keith Richards",
+      "Mick Jagger",
+      "Ron Wood",
+      "Steve Jordan"
+    ],
+    "answer": "Steve Jordan",
+    "points": 10
   }
 ]
