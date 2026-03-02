@@ -1,0 +1,15 @@
+# Rolling Stones Lyrics Questions
+# Format: one question per block, blank line between questions
+# The word or phrase in [brackets] is the missing part shown as ___ in the quiz
+# answer: must match exactly what's in the brackets (case-insensitive)
+#
+# Example:
+#
+# lyric: She said her name was [Billie Jean] and she was fresh
+# answer: Billie Jean
+#
+# lyric: I'll never be your [beast of burden]
+# answer: beast of burden
+#
+# ---- Add your questions below this line ----
+
