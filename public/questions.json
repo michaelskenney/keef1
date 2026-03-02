@@ -1664,5 +1664,380 @@
     "answer": "Jack Sparrow",
     "fuzzy": true,
     "points": 10
+  },
+  {
+    "id": "mc-trv-013",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "The Rolling Stones played their first concert in July 1962 at which famous London venue?",
+    "options": [
+      "Marquee Club",
+      "Ronnie Scott's",
+      "The 100 Club",
+      "The Cavern Club"
+    ],
+    "answer": "Marquee Club",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-014",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "Which Rolling Stones co-founder was removed from the official lineup in 1963 but stayed on as road manager and pianist until his death in 1985?",
+    "options": [
+      "Ian Stewart",
+      "Dick Taylor",
+      "Brian Jones",
+      "Bill Wyman"
+    ],
+    "answer": "Ian Stewart",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-015",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "Which TV host ridiculed the Rolling Stones during their first major US prime-time appearance in June 1964, introducing them as 'these long-haired wonders'?",
+    "options": [
+      "Dean Martin",
+      "Ed Sullivan",
+      "Johnny Carson",
+      "Jack Paar"
+    ],
+    "answer": "Dean Martin",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-016",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "The acclaimed 1970 documentary 'Gimme Shelter' about the Stones' 1969 US tour was directed by which filmmakers?",
+    "options": [
+      "Albert and David Maysles",
+      "Martin Scorsese and Thelma Schoonmaker",
+      "D.A. Pennebaker and Chris Hegedus",
+      "Jean-Luc Godard and Jean-Pierre Gorin"
+    ],
+    "answer": "Albert and David Maysles",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-017",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "In which year were the Rolling Stones inducted into the Rock and Roll Hall of Fame?",
+    "options": [
+      "1989",
+      "1995",
+      "1982",
+      "2003"
+    ],
+    "answer": "1989",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-018",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "When Mick Jagger was knighted in December 2003, who performed the investiture ceremony?",
+    "options": [
+      "Prince Charles",
+      "Queen Elizabeth II",
+      "Prime Minister Tony Blair",
+      "Princess Anne"
+    ],
+    "answer": "Prince Charles",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-019",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "'Jumpin' Jack Flash' took its title partly from a real Jack Dyer, who woke Mick Jagger with his stomping. What was Dyer's job?",
+    "options": [
+      "Gardener",
+      "Chauffeur",
+      "Security guard",
+      "Cook"
+    ],
+    "answer": "Gardener",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-020",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "The Rolling Stones' A Bigger Bang tour (2005-07) set a world record at the time. Approximately how much did it gross?",
+    "options": [
+      "$558 million",
+      "$250 million",
+      "$400 million",
+      "$700 million"
+    ],
+    "answer": "$558 million",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-021",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "At the 1968 Rock and Roll Circus, John Lennon performed in a one-off supergroup also featuring Eric Clapton. What was the group called?",
+    "options": [
+      "The Dirty Mac",
+      "The Plastic Ono Band",
+      "The Supergroup",
+      "The All-Stars"
+    ],
+    "answer": "The Dirty Mac",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-022",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "Martin Scorsese directed which 2008 Rolling Stones concert film, filmed at the Beacon Theatre in New York?",
+    "options": [
+      "Shine a Light",
+      "Gimme Shelter",
+      "Ladies and Gentlemen",
+      "Havana Moon"
+    ],
+    "answer": "Shine a Light",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-023",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "The Rolling Stones' free outdoor concert in Havana, Cuba in March 2016 drew an estimated crowd of how many people?",
+    "options": [
+      "Over 500,000",
+      "Around 50,000",
+      "Around 200,000",
+      "Over 1 million"
+    ],
+    "answer": "Over 500,000",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-024",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "ABKCO, the company controlling the Stones' pre-1971 recordings, was founded by Allen Klein. What does ABKCO stand for?",
+    "options": [
+      "Allen and Betty Klein Company",
+      "Allen B. Klein Corp",
+      "Associated British Klein Organisation",
+      "Atlantic British Klein Company"
+    ],
+    "answer": "Allen and Betty Klein Company",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-025",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "Which Verve song's royalties were stripped from Richard Ashcroft for over 20 years after sampling a 1965 Andrew Oldham Orchestra recording?",
+    "options": [
+      "Bitter Sweet Symphony",
+      "The Drugs Don't Work",
+      "Lucky Man",
+      "Sonnet"
+    ],
+    "answer": "Bitter Sweet Symphony",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-026",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "Who presented the Rolling Stones with their Rock and Roll Hall of Fame award in 1989?",
+    "options": [
+      "Pete Townshend",
+      "Bruce Springsteen",
+      "Eric Clapton",
+      "David Bowie"
+    ],
+    "answer": "Pete Townshend",
+    "points": 10
+  },
+  {
+    "id": "mc-trv-027",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "Which 2002 compilation was the first official release to combine both the pre-1970 ABKCO catalog and the post-1970 self-owned Rolling Stones recordings?",
+    "options": [
+      "Forty Licks",
+      "Hot Rocks",
+      "Jump Back",
+      "Rolled Gold"
+    ],
+    "answer": "Forty Licks",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-009",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "The Rolling Stones played their very first gig at the ___ Club in London on July 12, 1962.",
+    "answer": "Marquee",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-010",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "Ian Stewart, 'the sixth Stone', served as the band's road manager and pianist from 1963 until his death in ___.",
+    "answer": "1985",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-011",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "At the 1969 Altamont concert, Hells Angel Alan Passaro was tried for the stabbing of Meredith Hunter but was acquitted on grounds of ___.",
+    "answer": "self-defense",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-012",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "The title 'Jumpin' Jack Flash' was partly inspired by Keith Richards' gardener, Jack ___.",
+    "answer": "Dyer",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-013",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "easy",
+    "question": "Martin Scorsese's 2008 Rolling Stones concert film is called '___ a Light'.",
+    "answer": "Shine",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-014",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "John Lennon performed at the 1968 Rock and Roll Circus with a one-off supergroup called The ___ Mac.",
+    "answer": "Dirty",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-015",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "ABKCO stands for Allen and ___ Klein Company, named after Allen Klein and his wife.",
+    "answer": "Betty",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-016",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "The Rolling Stones' free Havana Moon concert in Cuba took place just three days after President ___'s historic visit to the country.",
+    "answer": "Obama",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-017",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "When the Verve used an unauthorized sample in 'Bitter Sweet Symphony', ABKCO sued and all royalties were transferred to Jagger and Richards. The rights were finally returned to Richard Ashcroft in ___.",
+    "answer": "2019",
+    "points": 10
+  },
+  {
+    "id": "fb-trv-018",
+    "type": "fill_blank",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "The Rolling Stones' A Bigger Bang tour (2005-07) set a world record by grossing approximately $___ million.",
+    "answer": "558",
+    "points": 10
+  },
+  {
+    "id": "ft-trv-006",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "The Rolling Stones received a Grammy Lifetime Achievement Award in which year?",
+    "answer": "1986",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-trv-007",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "The 1970 Altamont documentary was directed by two brothers. What was their surname?",
+    "answer": "Maysles",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-trv-008",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "What is the name of the concert film documenting the Rolling Stones' historic free show in Havana, Cuba in 2016?",
+    "answer": "Havana Moon",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-trv-009",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "The Verve's 'Bitter Sweet Symphony' sampled a 1965 orchestral arrangement of which Rolling Stones song?",
+    "answer": "The Last Time",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-trv-010",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "medium",
+    "question": "What was the name of the Rolling Stones co-founder who was quietly removed from the official lineup in 1963 but remained as the band's pianist and road manager until his death?",
+    "answer": "Ian Stewart",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-trv-011",
+    "type": "free_text",
+    "category": "trivia",
+    "difficulty": "hard",
+    "question": "The Rolling Stones' A Bigger Bang tour (2005-07) set a world record for gross revenues. Which band's later tour broke that record?",
+    "answer": "U2",
+    "fuzzy": true,
+    "points": 10
   }
 ]
