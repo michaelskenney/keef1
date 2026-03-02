@@ -1289,5 +1289,380 @@
     "answer": "London Records",
     "fuzzy": true,
     "points": 10
+  },
+  {
+    "id": "mc-mem-013",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Which art college did Ronnie Wood attend in the 1960s, alongside future stars like Freddie Mercury and Pete Townshend?",
+    "options": [
+      "Ealing Art College",
+      "Camberwell College of Arts",
+      "Central Saint Martins",
+      "Hornsey College of Art"
+    ],
+    "answer": "Ealing Art College",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-014",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Keith Richards appeared as Captain Teague in which blockbuster film franchise?",
+    "options": [
+      "Pirates of the Caribbean",
+      "Indiana Jones",
+      "James Bond",
+      "The Lord of the Rings"
+    ],
+    "answer": "Pirates of the Caribbean",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-015",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "Mick Jagger and David Bowie collaborated on which 1985 UK No. 1 single?",
+    "options": [
+      "Dancing in the Street",
+      "Let's Dance",
+      "Under Pressure",
+      "Heroes"
+    ],
+    "answer": "Dancing in the Street",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-016",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Before joining the Faces, Ronnie Wood played alongside Rod Stewart in which band?",
+    "options": [
+      "Jeff Beck Group",
+      "The Yardbirds",
+      "Cream",
+      "The Animals"
+    ],
+    "answer": "Jeff Beck Group",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-017",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Bill Wyman served in which branch of the British armed forces, where he borrowed his stage surname from a fellow serviceman?",
+    "options": [
+      "Royal Air Force",
+      "Royal Navy",
+      "British Army",
+      "Royal Marines"
+    ],
+    "answer": "Royal Air Force",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-018",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "What was the official inquest verdict on Brian Jones's death in July 1969?",
+    "options": [
+      "Death by misadventure",
+      "Suicide",
+      "Unlawful killing",
+      "Natural causes"
+    ],
+    "answer": "Death by misadventure",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-019",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Mick Jagger studied at which prestigious London university before leaving to pursue music full-time?",
+    "options": [
+      "London School of Economics",
+      "University College London",
+      "King's College London",
+      "Imperial College London"
+    ],
+    "answer": "London School of Economics",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-020",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Charlie Watts recorded two tribute albums dedicated to which jazz legend?",
+    "options": [
+      "Charlie Parker",
+      "Miles Davis",
+      "John Coltrane",
+      "Thelonious Monk"
+    ],
+    "answer": "Charlie Parker",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-021",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "Keith Richards published his autobiography in 2010, co-written with James Fox. What is it called?",
+    "options": [
+      "Life",
+      "Satisfaction",
+      "Talk Is Cheap",
+      "Stone Alone"
+    ],
+    "answer": "Life",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-022",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "How old was Ronnie Wood when his twin daughters were born in 2016?",
+    "options": [
+      "68",
+      "55",
+      "62",
+      "71"
+    ],
+    "answer": "68",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-023",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Brian Jones travelled to Morocco in 1968 to record which group of traditional musicians?",
+    "options": [
+      "Master Musicians of Joujouka",
+      "The Pan Pipers of Marrakech",
+      "The Gnawa Musicians of Essaouira",
+      "The Musicians of Fez"
+    ],
+    "answer": "Master Musicians of Joujouka",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-024",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "What is the name of Keith Richards's backing band for his solo work?",
+    "options": [
+      "The X-Pensive Winos",
+      "The Expensive Winos",
+      "The Main Street Band",
+      "The Rattlesnakes"
+    ],
+    "answer": "The X-Pensive Winos",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-025",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Bill Wyman is said to have secured his spot in the Rolling Stones partly because the band was impressed by his what?",
+    "options": [
+      "Amplifiers",
+      "Technique",
+      "Stage presence",
+      "Song catalog"
+    ],
+    "answer": "Amplifiers",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-026",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Mick Jagger underwent emergency surgery in 2019 to replace what?",
+    "options": [
+      "Heart valve",
+      "Hip joint",
+      "Knee cartilage",
+      "Shoulder tendon"
+    ],
+    "answer": "Heart valve",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-027",
+    "type": "multiple_choice",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Bill Wyman opened which American-themed restaurant in Kensington, London in 1989?",
+    "options": [
+      "Sticky Fingers",
+      "The Brown Sugar",
+      "The Main Street Diner",
+      "Exile Grill"
+    ],
+    "answer": "Sticky Fingers",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-009",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Mick Jagger studied economics and politics at the London School of ___.",
+    "answer": "Economics",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-010",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Keith Richards played Captain ___ \u2014 Jack Sparrow's father \u2014 in the Pirates of the Caribbean films.",
+    "answer": "Teague",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-011",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "easy",
+    "question": "Mick Jagger and David Bowie's 1985 UK No. 1 duet was called 'Dancing in the ___'.",
+    "answer": "Street",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-012",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Ronnie Wood's family were known as English 'water ___', with generations living on canal barges.",
+    "answer": "gypsies",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-013",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Charlie Watts recorded two jazz tribute albums dedicated to bebop legend Charlie ___.",
+    "answer": "Parker",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-014",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Bill Wyman served in the Royal ___ Force before joining the Rolling Stones.",
+    "answer": "Air",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-015",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Brian Jones recorded the Master Musicians of ___ in Morocco in 1968; the album was released posthumously in 1971.",
+    "answer": "Joujouka",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-016",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Keith Richards married Patti Hansen on his ___ birthday, December 18, 1983.",
+    "answer": "40th",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-017",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Mick Taylor was born in Welwyn ___ City, Hertfordshire.",
+    "answer": "Garden",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-018",
+    "type": "fill_blank",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Charlie Watts was married to Shirley Ann Shepherd for ___ years, from 1964 until his death in 2021.",
+    "answer": "57",
+    "points": 10
+  },
+  {
+    "id": "ft-mem-006",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Brian Jones travelled to Morocco in 1968 to record traditional musicians. What is the full title of the album released from those recordings in 1971?",
+    "answer": "Brian Jones Presents the Pipes of Pan at Joujouka",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-mem-007",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "At which famous London jazz club did Charlie Watts perform with his Tentet?",
+    "answer": "Ronnie Scott's",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-mem-008",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Charlie Watts remained married to the same woman from 1964 until his death in 2021 \u2014 57 years. What was her name?",
+    "answer": "Shirley Watts",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-mem-009",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Mick Jagger established a scholarship at Central Saint Martins college in memory of which fashion designer, his long-term partner who died in 2014?",
+    "answer": "L'Wren Scott",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-mem-010",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "hard",
+    "question": "Before joining the Faces, Ronnie Wood played guitar and bass alongside Rod Stewart in a band led by which famous guitarist?",
+    "answer": "Jeff Beck",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "ft-mem-011",
+    "type": "free_text",
+    "category": "members",
+    "difficulty": "medium",
+    "question": "Johnny Depp based the mannerisms of which Pirates of the Caribbean character on Keith Richards?",
+    "answer": "Jack Sparrow",
+    "fuzzy": true,
+    "points": 10
   }
 ]
