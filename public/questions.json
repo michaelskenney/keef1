@@ -2414,5 +2414,69 @@
     ],
     "answer": "Steve Jordan",
     "points": 10
+  },
+  {
+    "id": "lyrics-01",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "the police in ___ they chased a boy right through the park",
+    "answer": "New York City",
+    "points": 10
+  },
+  {
+    "id": "lyrics-02",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "Did you ever wake up to find a day that broke up your mind destroyed your notion of ___ time",
+    "answer": "circular",
+    "points": 10
+  },
+  {
+    "id": "lyrics-03",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "you make a dead man ___",
+    "answer": "come",
+    "points": 10
+  },
+  {
+    "id": "lyrics-04",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "I was dreaming of a ___ guitar engagement",
+    "answer": "steel",
+    "points": 10
+  },
+  {
+    "id": "lyrics-05",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "I'll be your saviour, steadfast and true, I'll come to your ___",
+    "answer": "emotional rescue",
+    "points": 10
+  },
+  {
+    "id": "lyrics-06",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "I hear you talking when I'm on the street, your mouth don't move, but I can hear you ___",
+    "answer": "speak",
+    "points": 10
+  },
+  {
+    "id": "lyrics-07",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "Thank you for your wine, California, thank you for your sweet and bitter ___",
+    "answer": "fruits",
+    "points": 10
+  },
+  {
+    "id": "lyrics-08",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "I got silence on my ___, let the airwaves flow",
+    "answer": "radio",
+    "points": 10
   }
 ]
