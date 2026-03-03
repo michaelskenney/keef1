@@ -13,3 +13,29 @@
 #
 # ---- Add your questions below this line ----
 
+
+Lyric: the police in [New York City] they chased a boy right through the park
+answer: New York City
+
+Lyric: Did you ever wake up to find a day that broke up your mind destroyed your notion of [circular] time
+answer: circular
+
+Lyric: you make a dead man [come]
+answer: come
+
+Lyric: I was dreaming of a [steel] guitar engagement
+answer: steel
+
+Lyric: I'll be your saviour, steadfast and true, I'll come to your [emotional rescue]
+answer: emotional rescue
+
+Lyrics: I hear you talking when I'm on the street, your mouth don't move, but I can hear you [speak]
+answer: speak
+
+Lyric: Thank you for your wine, California, thank you for your sweet and bitter [fruits]
+answer: fruits
+
+Lyric: I got silence on my [radio], let the airwaves flow
+Answer: radio
+
+

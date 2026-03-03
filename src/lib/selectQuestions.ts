@@ -29,13 +29,35 @@ export function selectQuestions(
   count: number,
   weights: Record<string, number>
 ): Question[] {
-  const mcPool = pool.filter(q => q.type === 'multiple_choice' || q.type === 'image')
-  const fbPool = pool.filter(q => q.type === 'fill_blank')
-
   const usedIds = new Set<string>()
   const usedAnswers = new Set<string>()
-  const mcQuestions = pickUnique(mcPool, count - 1, weights, usedIds, usedAnswers)
-  const fbQuestion = pickUnique(fbPool, 1, weights, usedIds, usedAnswers)
 
-  return [...mcQuestions, ...fbQuestion]
+  // Guaranteed slots: 1 lyrics, 1 album cover image, 1 band member image
+  const lyricsQ = pickUnique(
+    pool.filter(q => q.category === 'lyrics'),
+    1, weights, usedIds, usedAnswers
+  )
+  const albumImageQ = pickUnique(
+    pool.filter(q => q.type === 'image' && q.category === 'albums'),
+    1, weights, usedIds, usedAnswers
+  )
+  const memberImageQ = pickUnique(
+    pool.filter(q => q.type === 'image' && q.category === 'members'),
+    1, weights, usedIds, usedAnswers
+  )
+
+  const guaranteed = [...lyricsQ, ...albumImageQ, ...memberImageQ]
+  const remaining = count - guaranteed.length
+  // Exclude any question qualifying for a guaranteed slot to keep the counts exact
+  const restQ = pickUnique(
+    pool.filter(q =>
+      !usedIds.has(q.id) &&
+      q.category !== 'lyrics' &&
+      !(q.type === 'image' && q.category === 'albums') &&
+      !(q.type === 'image' && q.category === 'members')
+    ),
+    remaining, weights, usedIds, usedAnswers
+  )
+
+  return [...guaranteed, ...restQ]
 }
