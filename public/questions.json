@@ -2478,5 +2478,230 @@
     "question": "I got silence on my ___, let the airwaves flow",
     "answer": "radio",
     "points": 10
+  },
+  {
+    "id": "img-album-01",
+    "type": "image",
+    "category": "albums",
+    "question": "Which Rolling Stones album is this?",
+    "image": "/images/albums/between-the-buttons.png",
+    "options": [
+      "Aftermath",
+      "Beggars Banquet",
+      "Between the Buttons",
+      "Black and Blue"
+    ],
+    "answer": "Between the Buttons",
+    "points": 10
+  },
+  {
+    "id": "img-album-02",
+    "type": "image",
+    "category": "albums",
+    "question": "Which Rolling Stones album is this?",
+    "image": "/images/albums/black-and-blue.png",
+    "options": [
+      "Black and Blue",
+      "Bridges to Babylon",
+      "December's Children",
+      "Dirty Work"
+    ],
+    "answer": "Black and Blue",
+    "points": 10
+  },
+  {
+    "id": "img-album-03",
+    "type": "image",
+    "category": "albums",
+    "question": "Which Rolling Stones album is this?",
+    "image": "/images/albums/bridges-to-babylon.png",
+    "options": [
+      "Bridges to Babylon",
+      "Emotional Rescue",
+      "Exile on Main St",
+      "Get Yer Ya-Ya's Out!"
+    ],
+    "answer": "Bridges to Babylon",
+    "points": 10
+  },
+  {
+    "id": "img-album-04",
+    "type": "image",
+    "category": "albums",
+    "question": "Which Rolling Stones album is this?",
+    "image": "/images/albums/dirty-work.png",
+    "options": [
+      "Dirty Work",
+      "Goat's Head Soup",
+      "It's Only Rock and Roll",
+      "Let It Bleed"
+    ],
+    "answer": "Dirty Work",
+    "points": 10
+  },
+  {
+    "id": "img-album-05",
+    "type": "image",
+    "category": "albums",
+    "question": "Which Rolling Stones album is this?",
+    "image": "/images/albums/emotional-rescue.png",
+    "options": [
+      "Emotional Rescue",
+      "Love You Live",
+      "Out of Our Heads",
+      "Some Girls"
+    ],
+    "answer": "Emotional Rescue",
+    "points": 10
+  },
+  {
+    "id": "img-album-06",
+    "type": "image",
+    "category": "albums",
+    "question": "Which Rolling Stones album is this?",
+    "image": "/images/albums/exile-on-main-st.png",
+    "options": [
+      "Exile on Main St",
+      "Steel Wheels",
+      "Sticky Fingers",
+      "Tattoo You"
+    ],
+    "answer": "Exile on Main St",
+    "points": 10
+  },
+  {
+    "id": "img-album-07",
+    "type": "image",
+    "category": "albums",
+    "question": "Which Rolling Stones album is this?",
+    "image": "/images/albums/goat's-head-soup.png",
+    "options": [
+      "Goat's Head Soup",
+      "Their Satanic Majesties Request",
+      "Through the Past, Darkly",
+      "Undercover"
+    ],
+    "answer": "Goat's Head Soup",
+    "points": 10
+  },
+  {
+    "id": "img-album-08",
+    "type": "image",
+    "category": "albums",
+    "question": "Which Rolling Stones album is this?",
+    "image": "/images/albums/it's-only-rock-and-roll.png",
+    "options": [
+      "Aftermath",
+      "Beggars Banquet",
+      "It's Only Rock and Roll",
+      "Voodoo Lounge"
+    ],
+    "answer": "It's Only Rock and Roll",
+    "points": 10
+  },
+  {
+    "id": "img-album-09",
+    "type": "image",
+    "category": "albums",
+    "question": "Which Rolling Stones album is this?",
+    "image": "/images/albums/let-it-bleed.png",
+    "options": [
+      "Between the Buttons",
+      "Black and Blue",
+      "Bridges to Babylon",
+      "Let It Bleed"
+    ],
+    "answer": "Let It Bleed",
+    "points": 10
+  },
+  {
+    "id": "img-album-10",
+    "type": "image",
+    "category": "albums",
+    "question": "Which Rolling Stones album is this?",
+    "image": "/images/albums/some-girls.png",
+    "options": [
+      "December's Children",
+      "Dirty Work",
+      "Emotional Rescue",
+      "Some Girls"
+    ],
+    "answer": "Some Girls",
+    "points": 10
+  },
+  {
+    "id": "img-album-11",
+    "type": "image",
+    "category": "albums",
+    "question": "Which Rolling Stones album is this?",
+    "image": "/images/albums/steel-wheels.png",
+    "options": [
+      "Exile on Main St",
+      "Get Yer Ya-Ya's Out!",
+      "Goat's Head Soup",
+      "Steel Wheels"
+    ],
+    "answer": "Steel Wheels",
+    "points": 10
+  },
+  {
+    "id": "img-album-12",
+    "type": "image",
+    "category": "albums",
+    "question": "Which Rolling Stones album is this?",
+    "image": "/images/albums/sticky-fingers.png",
+    "options": [
+      "It's Only Rock and Roll",
+      "Let It Bleed",
+      "Love You Live",
+      "Sticky Fingers"
+    ],
+    "answer": "Sticky Fingers",
+    "points": 10
+  },
+  {
+    "id": "img-album-13",
+    "type": "image",
+    "category": "albums",
+    "question": "Which Rolling Stones album is this?",
+    "image": "/images/albums/tattoo-you.png",
+    "options": [
+      "Out of Our Heads",
+      "Some Girls",
+      "Steel Wheels",
+      "Tattoo You"
+    ],
+    "answer": "Tattoo You",
+    "points": 10
+  },
+  {
+    "id": "img-album-14",
+    "type": "image",
+    "category": "albums",
+    "question": "Which Rolling Stones album is this?",
+    "image": "/images/albums/their-satanic-majesties-request.png",
+    "options": [
+      "Sticky Fingers",
+      "Tattoo You",
+      "Their Satanic Majesties Request",
+      "Through the Past, Darkly"
+    ],
+    "answer": "Their Satanic Majesties Request",
+    "points": 10
+  },
+  {
+    "id": "img-album-15",
+    "type": "image",
+    "category": "albums",
+    "question": "Which Rolling Stones album is this?",
+    "image": "/images/albums/voodoo-lounge.png",
+    "options": [
+      "Aftermath",
+      "Through the Past, Darkly",
+      "Undercover",
+      "Voodoo Lounge"
+    ],
+    "answer": "Voodoo Lounge",
+    "points": 10
   }
 ]
