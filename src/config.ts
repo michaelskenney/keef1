@@ -1,6 +1,6 @@
 export const CONFIG = {
   questionsPerRound: 10,
-  secondsPerQuestion: 30,
+  secondsPerQuestion: 60,
   basePoints: 10,
   maxSpeedBonus: 5,
   feedbackDurationMs: 1500,
