@@ -41,6 +41,12 @@ export function HomeScreen({ onStart, onLeaderboard }: Props) {
       <p style={{ fontSize: 12, opacity: 0.4, margin: 0 }}>
         v{__APP_VERSION__} · Updated {__BUILD_DATE__}
       </p>
+      <div style={{ fontSize: 12, opacity: 0.4, marginTop: 8, lineHeight: 1.6 }}>
+        <div style={{ fontWeight: 700, marginBottom: 4 }}>Recent changes</div>
+        {__RECENT_CHANGES__.map((c, i) => (
+          <div key={i}>{c.date} — {c.message}</div>
+        ))}
+      </div>
     </div>
   )
 }
