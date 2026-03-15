@@ -3054,5 +3054,223 @@
     "answer": "Angie",
     "fuzzy": true,
     "points": 10
+  },
+  {
+    "id": "mc-tri-057",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "question": "What year were the Rolling Stones inducted into the Rock and Roll Hall of Fame?",
+    "options": ["1986", "1989", "1992", "1995"],
+    "answer": "1989",
+    "points": 10
+  },
+  {
+    "id": "mc-tri-058",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "question": "What is the name of the Rolling Stones' famous tongue-and-lips logo designer?",
+    "options": ["Andy Warhol", "John Pasche", "Peter Blake", "Robert Frank"],
+    "answer": "John Pasche",
+    "points": 10
+  },
+  {
+    "id": "fb-tri-059",
+    "type": "fill_blank",
+    "category": "trivia",
+    "question": "The Rolling Stones took their name from a song by ___ (first and last name)",
+    "answer": "Muddy Waters",
+    "points": 10
+  },
+  {
+    "id": "mc-tri-060",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "question": "In what year did the Rolling Stones play their first gig at the Marquee Club in London?",
+    "options": ["1960", "1962", "1964", "1966"],
+    "answer": "1962",
+    "points": 10
+  },
+  {
+    "id": "ft-tri-061",
+    "type": "free_text",
+    "category": "trivia",
+    "question": "What was the name of the 1968 TV special known as 'The Rolling Stones Rock and Roll Circus'?",
+    "answer": "Rock and Roll Circus",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-tri-062",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "question": "Which Rolling Stones tour became the highest-grossing tour of 2005-2007?",
+    "options": ["Licks Tour", "A Bigger Bang Tour", "Bridges to Babylon Tour", "Voodoo Lounge Tour"],
+    "answer": "A Bigger Bang Tour",
+    "points": 10
+  },
+  {
+    "id": "fb-tri-063",
+    "type": "fill_blank",
+    "category": "trivia",
+    "question": "The Stones recorded 'Exile on Main St.' in the basement of a villa in ___, France",
+    "answer": "Villefranche-sur-Mer",
+    "points": 10
+  },
+  {
+    "id": "mc-tri-064",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "question": "What tragic event occurred during the Stones' concert at Altamont Speedway in 1969?",
+    "options": ["Stage collapse", "A fan was killed", "Mick Jagger was injured", "The concert was cancelled after one song"],
+    "answer": "A fan was killed",
+    "points": 10
+  },
+  {
+    "id": "ft-tri-065",
+    "type": "free_text",
+    "category": "trivia",
+    "question": "What is the name of the documentary film about the Altamont concert?",
+    "answer": "Gimme Shelter",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-tri-066",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "question": "Which record label did the Rolling Stones found in 1970?",
+    "options": ["Virgin Records", "Rolling Stones Records", "Stones Throw Records", "Decca Records"],
+    "answer": "Rolling Stones Records",
+    "points": 10
+  },
+  {
+    "id": "fb-tri-067",
+    "type": "fill_blank",
+    "category": "trivia",
+    "question": "The Rolling Stones' mobile recording studio was called the Rolling Stones Mobile ___ (one word)",
+    "answer": "Unit",
+    "points": 10
+  },
+  {
+    "id": "mc-tri-068",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "question": "Which Stones member wrote the score for three films directed by Volker Schlöndorff?",
+    "options": ["Mick Jagger", "Keith Richards", "Charlie Watts", "Bill Wyman"],
+    "answer": "Mick Jagger",
+    "points": 10
+  },
+  {
+    "id": "ft-tri-069",
+    "type": "free_text",
+    "category": "trivia",
+    "question": "What London street was the Rolling Stones' first shared flat on?",
+    "answer": "Edith Grove",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-tri-070",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "question": "How many UK number-one singles did the Rolling Stones have?",
+    "options": ["5", "8", "12", "15"],
+    "answer": "8",
+    "points": 10
+  },
+  {
+    "id": "fb-tri-071",
+    "type": "fill_blank",
+    "category": "trivia",
+    "question": "Keith Richards' autobiography published in 2010 is titled '___' (one word)",
+    "answer": "Life",
+    "points": 10
+  },
+  {
+    "id": "mc-tri-072",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "question": "Which famous producer worked with the Rolling Stones on 'Some Girls' and 'Tattoo You'?",
+    "options": ["Jimmy Miller", "The Glimmer Twins", "Andrew Loog Oldham", "George Martin"],
+    "answer": "The Glimmer Twins",
+    "points": 10
+  },
+  {
+    "id": "ft-tri-073",
+    "type": "free_text",
+    "category": "trivia",
+    "question": "What pseudonym did Mick Jagger and Keith Richards use as a production team?",
+    "answer": "The Glimmer Twins",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-tri-074",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "question": "Which Stones member was a trained graphic designer and created early tour posters?",
+    "options": ["Charlie Watts", "Brian Jones", "Keith Richards", "Bill Wyman"],
+    "answer": "Charlie Watts",
+    "points": 10
+  },
+  {
+    "id": "fb-tri-075",
+    "type": "fill_blank",
+    "category": "trivia",
+    "question": "The Stones' 2016 blues covers album is called 'Blue & ___'",
+    "answer": "Lonesome",
+    "points": 10
+  },
+  {
+    "id": "mc-tri-076",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "question": "What was the name of the Rolling Stones' 2022-2023 tour celebrating 60 years?",
+    "options": ["No Filter Tour", "SIXTY Tour", "Hackney Diamonds Tour", "Licks Tour"],
+    "answer": "SIXTY Tour",
+    "points": 10
+  },
+  {
+    "id": "ft-tri-077",
+    "type": "free_text",
+    "category": "trivia",
+    "question": "What is the name of the Rolling Stones' 2023 studio album — their first of original material in 18 years?",
+    "answer": "Hackney Diamonds",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-tri-078",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "question": "Which Stones album was recorded at Muscle Shoals Sound Studio in Alabama?",
+    "options": ["Sticky Fingers", "Let It Bleed", "Beggars Banquet", "Goats Head Soup"],
+    "answer": "Sticky Fingers",
+    "points": 10
+  },
+  {
+    "id": "fb-tri-079",
+    "type": "fill_blank",
+    "category": "trivia",
+    "question": "Andrew Loog ___ was the Rolling Stones' first manager and producer",
+    "answer": "Oldham",
+    "points": 10
+  },
+  {
+    "id": "mc-tri-080",
+    "type": "multiple_choice",
+    "category": "trivia",
+    "question": "In what year did Charlie Watts pass away?",
+    "options": ["2019", "2020", "2021", "2022"],
+    "answer": "2021",
+    "points": 10
+  },
+  {
+    "id": "fb-tri-081",
+    "type": "fill_blank",
+    "category": "trivia",
+    "question": "The Rolling Stones performed at the Super Bowl halftime show in ___ (year)",
+    "answer": "2006",
+    "points": 10
   }
 ]
