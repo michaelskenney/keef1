@@ -2703,5 +2703,356 @@
     ],
     "answer": "Voodoo Lounge",
     "points": 10
+  },
+  {
+    "id": "fb-lyr-009",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "Complete the song title: '(I Can't Get No) ___'",
+    "answer": "Satisfaction",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-010",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "Which Rolling Stones song opens with 'Please allow me to introduce myself'?",
+    "answer": "Sympathy for the Devil",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-lyr-011",
+    "type": "multiple_choice",
+    "category": "lyrics",
+    "question": "Which song contains the plea 'Wild horses couldn't drag me away'?",
+    "options": ["Angie", "Wild Horses", "Ruby Tuesday", "As Tears Go By"],
+    "answer": "Wild Horses",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-012",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "In which song does Mick sing about a 'war' and 'a shot away'?",
+    "answer": "Gimme Shelter",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-lyr-013",
+    "type": "multiple_choice",
+    "category": "lyrics",
+    "question": "Which song begins 'I was born in a crossfire hurricane'?",
+    "options": ["Jumpin' Jack Flash", "Street Fighting Man", "Sympathy for the Devil", "It's Only Rock 'n Roll"],
+    "answer": "Jumpin' Jack Flash",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-014",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "Which song contains the line 'You can't always get what you want'?",
+    "answer": "You Can't Always Get What You Want",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-lyr-015",
+    "type": "multiple_choice",
+    "category": "lyrics",
+    "question": "In 'Start Me Up', what does Mick say the singer will never do?",
+    "options": ["Stop", "Cry", "Quit", "Leave"],
+    "answer": "Stop",
+    "points": 10
+  },
+  {
+    "id": "fb-lyr-016",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "Complete the title: 'Paint It ___'",
+    "answer": "Black",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-017",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "Which ballad asks 'Angie, Angie, where will it lead us from here?'",
+    "answer": "Angie",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-lyr-018",
+    "type": "multiple_choice",
+    "category": "lyrics",
+    "question": "Which song features the lyric 'I been walking Central Park, singing after dark'?",
+    "options": ["Miss You", "Shattered", "Emotional Rescue", "Waiting on a Friend"],
+    "answer": "Miss You",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-019",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "Which song includes 'Am I hard enough? Am I rough enough?'",
+    "answer": "Beast of Burden",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-lyr-020",
+    "type": "multiple_choice",
+    "category": "lyrics",
+    "question": "Which song mentions 'Under my thumb, the girl who once had me down'?",
+    "options": ["Under My Thumb", "Stupid Girl", "19th Nervous Breakdown", "The Last Time"],
+    "answer": "Under My Thumb",
+    "points": 10
+  },
+  {
+    "id": "fb-lyr-021",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "Complete the title: 'Honky Tonk ___'",
+    "answer": "Women",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-022",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "Which song features the line 'Goodbye Ruby Tuesday, who could hang a name on you'?",
+    "answer": "Ruby Tuesday",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-lyr-023",
+    "type": "multiple_choice",
+    "category": "lyrics",
+    "question": "In 'Tumbling Dice', what game is referenced in the lyrics?",
+    "options": ["Poker", "Roulette", "Craps", "Blackjack"],
+    "answer": "Craps",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-024",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "Which song begins with the lyrics about 'Ev'rywhere I hear the sound of marching, charging feet'?",
+    "answer": "Street Fighting Man",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-lyr-025",
+    "type": "multiple_choice",
+    "category": "lyrics",
+    "question": "Which song's chorus repeats 'It's only rock 'n roll but I like it'?",
+    "options": ["Brown Sugar", "It's Only Rock 'n Roll", "Start Me Up", "Rocks Off"],
+    "answer": "It's Only Rock 'n Roll",
+    "points": 10
+  },
+  {
+    "id": "fb-lyr-026",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "Complete the title: 'Emotional ___'",
+    "answer": "Rescue",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-027",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "Which song mentions 'She was practiced at the art of deception'?",
+    "answer": "You Can't Always Get What You Want",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-lyr-028",
+    "type": "multiple_choice",
+    "category": "lyrics",
+    "question": "In 'Gimme Shelter', who sings the female vocal part alongside Mick?",
+    "options": ["Tina Turner", "Merry Clayton", "Claudia Lennear", "Carly Simon"],
+    "answer": "Merry Clayton",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-029",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "Which song asks 'What can a poor boy do, except to sing for a rock 'n' roll band?'",
+    "answer": "Street Fighting Man",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-lyr-030",
+    "type": "multiple_choice",
+    "category": "lyrics",
+    "question": "Which album's title track includes 'I'll never be your beast of burden'?",
+    "options": ["Some Girls", "Tattoo You", "Emotional Rescue", "Steel Wheels"],
+    "answer": "Some Girls",
+    "points": 10
+  },
+  {
+    "id": "fb-lyr-031",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "Complete the title: 'Jumpin' Jack ___'",
+    "answer": "Flash",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-032",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "Which song mentions riding in a 'sleepy city' and includes the name 'Mr. Jimmy'?",
+    "answer": "Rocks Off",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-lyr-033",
+    "type": "multiple_choice",
+    "category": "lyrics",
+    "question": "Which song features the opening riff followed by 'I see a red door and I want it painted black'?",
+    "options": ["Paint It Black", "Sympathy for the Devil", "19th Nervous Breakdown", "Have You Seen Your Mother, Baby"],
+    "answer": "Paint It Black",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-034",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "Which song has the lyric 'I'll never leave your pizza burning'?",
+    "answer": "Start Me Up",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-lyr-035",
+    "type": "multiple_choice",
+    "category": "lyrics",
+    "question": "Which Rolling Stones song references the Kennedy assassinations?",
+    "options": ["Street Fighting Man", "Sympathy for the Devil", "Gimme Shelter", "Salt of the Earth"],
+    "answer": "Sympathy for the Devil",
+    "points": 10
+  },
+  {
+    "id": "fb-lyr-036",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "Complete the title: 'Waiting on a ___'",
+    "answer": "Friend",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-037",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "Which song mentions 'a gas gas gas' in its chorus?",
+    "answer": "Jumpin' Jack Flash",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-lyr-038",
+    "type": "multiple_choice",
+    "category": "lyrics",
+    "question": "In 'Brown Sugar', what instrument opens the song?",
+    "options": ["Guitar riff", "Drum fill", "Saxophone", "Piano"],
+    "answer": "Guitar riff",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-039",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "Which song contains 'No sweeping exit or offstage lines could make me feel bitter or treat you unkind'?",
+    "answer": "Wild Horses",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-lyr-040",
+    "type": "multiple_choice",
+    "category": "lyrics",
+    "question": "Which song from 'Let It Bleed' features the London Bach Choir?",
+    "options": ["Gimme Shelter", "You Can't Always Get What You Want", "Let It Bleed", "Monkey Man"],
+    "answer": "You Can't Always Get What You Want",
+    "points": 10
+  },
+  {
+    "id": "fb-lyr-041",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "Complete the title: 'Sympathy for the ___'",
+    "answer": "Devil",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-042",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "Which Stones song tells the story of a 'Midnight Rambler'?",
+    "answer": "Midnight Rambler",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-lyr-043",
+    "type": "multiple_choice",
+    "category": "lyrics",
+    "question": "Which song mentions 'Just as every cop is a criminal and all the sinners saints'?",
+    "options": ["Sympathy for the Devil", "Street Fighting Man", "Gimme Shelter", "Salt of the Earth"],
+    "answer": "Sympathy for the Devil",
+    "points": 10
+  },
+  {
+    "id": "fb-lyr-044",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "Complete the title: 'Beast of ___'",
+    "answer": "Burden",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-045",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "Which song opens with a cowbell and features the lyric 'I met a gin-soaked barroom queen in Memphis'?",
+    "answer": "Honky Tonk Women",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-lyr-046",
+    "type": "multiple_choice",
+    "category": "lyrics",
+    "question": "Which song from Hackney Diamonds has the chorus 'Angry, angry'?",
+    "options": ["Angry", "Bite My Head Off", "Mess It Up", "Live by the Sword"],
+    "answer": "Angry",
+    "points": 10
+  },
+  {
+    "id": "fb-lyr-047",
+    "type": "fill_blank",
+    "category": "lyrics",
+    "question": "Complete the title: '19th Nervous ___'",
+    "answer": "Breakdown",
+    "points": 10
+  },
+  {
+    "id": "ft-lyr-048",
+    "type": "free_text",
+    "category": "lyrics",
+    "question": "Which ballad from 'Goats Head Soup' became a number-one hit in both the US and UK?",
+    "answer": "Angie",
+    "fuzzy": true,
+    "points": 10
   }
 ]
