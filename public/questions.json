@@ -2726,7 +2726,12 @@
     "type": "multiple_choice",
     "category": "lyrics",
     "question": "Which song contains the plea 'Wild horses couldn't drag me away'?",
-    "options": ["Angie", "Wild Horses", "Ruby Tuesday", "As Tears Go By"],
+    "options": [
+      "Angie",
+      "Wild Horses",
+      "Ruby Tuesday",
+      "As Tears Go By"
+    ],
     "answer": "Wild Horses",
     "points": 10
   },
@@ -2744,7 +2749,12 @@
     "type": "multiple_choice",
     "category": "lyrics",
     "question": "Which song begins 'I was born in a crossfire hurricane'?",
-    "options": ["Jumpin' Jack Flash", "Street Fighting Man", "Sympathy for the Devil", "It's Only Rock 'n Roll"],
+    "options": [
+      "Jumpin' Jack Flash",
+      "Street Fighting Man",
+      "Sympathy for the Devil",
+      "It's Only Rock 'n Roll"
+    ],
     "answer": "Jumpin' Jack Flash",
     "points": 10
   },
@@ -2762,7 +2772,12 @@
     "type": "multiple_choice",
     "category": "lyrics",
     "question": "In 'Start Me Up', what does Mick say the singer will never do?",
-    "options": ["Stop", "Cry", "Quit", "Leave"],
+    "options": [
+      "Stop",
+      "Cry",
+      "Quit",
+      "Leave"
+    ],
     "answer": "Stop",
     "points": 10
   },
@@ -2788,7 +2803,12 @@
     "type": "multiple_choice",
     "category": "lyrics",
     "question": "Which song features the lyric 'I been walking Central Park, singing after dark'?",
-    "options": ["Miss You", "Shattered", "Emotional Rescue", "Waiting on a Friend"],
+    "options": [
+      "Miss You",
+      "Shattered",
+      "Emotional Rescue",
+      "Waiting on a Friend"
+    ],
     "answer": "Miss You",
     "points": 10
   },
@@ -2806,7 +2826,12 @@
     "type": "multiple_choice",
     "category": "lyrics",
     "question": "Which song mentions 'Under my thumb, the girl who once had me down'?",
-    "options": ["Under My Thumb", "Stupid Girl", "19th Nervous Breakdown", "The Last Time"],
+    "options": [
+      "Under My Thumb",
+      "Stupid Girl",
+      "19th Nervous Breakdown",
+      "The Last Time"
+    ],
     "answer": "Under My Thumb",
     "points": 10
   },
@@ -2832,7 +2857,12 @@
     "type": "multiple_choice",
     "category": "lyrics",
     "question": "In 'Tumbling Dice', what game is referenced in the lyrics?",
-    "options": ["Poker", "Roulette", "Craps", "Blackjack"],
+    "options": [
+      "Poker",
+      "Roulette",
+      "Craps",
+      "Blackjack"
+    ],
     "answer": "Craps",
     "points": 10
   },
@@ -2850,7 +2880,12 @@
     "type": "multiple_choice",
     "category": "lyrics",
     "question": "Which song's chorus repeats 'It's only rock 'n roll but I like it'?",
-    "options": ["Brown Sugar", "It's Only Rock 'n Roll", "Start Me Up", "Rocks Off"],
+    "options": [
+      "Brown Sugar",
+      "It's Only Rock 'n Roll",
+      "Start Me Up",
+      "Rocks Off"
+    ],
     "answer": "It's Only Rock 'n Roll",
     "points": 10
   },
@@ -2876,7 +2911,12 @@
     "type": "multiple_choice",
     "category": "lyrics",
     "question": "In 'Gimme Shelter', who sings the female vocal part alongside Mick?",
-    "options": ["Tina Turner", "Merry Clayton", "Claudia Lennear", "Carly Simon"],
+    "options": [
+      "Tina Turner",
+      "Merry Clayton",
+      "Claudia Lennear",
+      "Carly Simon"
+    ],
     "answer": "Merry Clayton",
     "points": 10
   },
@@ -2894,7 +2934,12 @@
     "type": "multiple_choice",
     "category": "lyrics",
     "question": "Which album's title track includes 'I'll never be your beast of burden'?",
-    "options": ["Some Girls", "Tattoo You", "Emotional Rescue", "Steel Wheels"],
+    "options": [
+      "Some Girls",
+      "Tattoo You",
+      "Emotional Rescue",
+      "Steel Wheels"
+    ],
     "answer": "Some Girls",
     "points": 10
   },
@@ -2920,7 +2965,12 @@
     "type": "multiple_choice",
     "category": "lyrics",
     "question": "Which song features the opening riff followed by 'I see a red door and I want it painted black'?",
-    "options": ["Paint It Black", "Sympathy for the Devil", "19th Nervous Breakdown", "Have You Seen Your Mother, Baby"],
+    "options": [
+      "Paint It Black",
+      "Sympathy for the Devil",
+      "19th Nervous Breakdown",
+      "Have You Seen Your Mother, Baby"
+    ],
     "answer": "Paint It Black",
     "points": 10
   },
@@ -2938,7 +2988,12 @@
     "type": "multiple_choice",
     "category": "lyrics",
     "question": "Which Rolling Stones song references the Kennedy assassinations?",
-    "options": ["Street Fighting Man", "Sympathy for the Devil", "Gimme Shelter", "Salt of the Earth"],
+    "options": [
+      "Street Fighting Man",
+      "Sympathy for the Devil",
+      "Gimme Shelter",
+      "Salt of the Earth"
+    ],
     "answer": "Sympathy for the Devil",
     "points": 10
   },
@@ -2964,7 +3019,12 @@
     "type": "multiple_choice",
     "category": "lyrics",
     "question": "In 'Brown Sugar', what instrument opens the song?",
-    "options": ["Guitar riff", "Drum fill", "Saxophone", "Piano"],
+    "options": [
+      "Guitar riff",
+      "Drum fill",
+      "Saxophone",
+      "Piano"
+    ],
     "answer": "Guitar riff",
     "points": 10
   },
@@ -2982,7 +3042,12 @@
     "type": "multiple_choice",
     "category": "lyrics",
     "question": "Which song from 'Let It Bleed' features the London Bach Choir?",
-    "options": ["Gimme Shelter", "You Can't Always Get What You Want", "Let It Bleed", "Monkey Man"],
+    "options": [
+      "Gimme Shelter",
+      "You Can't Always Get What You Want",
+      "Let It Bleed",
+      "Monkey Man"
+    ],
     "answer": "You Can't Always Get What You Want",
     "points": 10
   },
@@ -3008,7 +3073,12 @@
     "type": "multiple_choice",
     "category": "lyrics",
     "question": "Which song mentions 'Just as every cop is a criminal and all the sinners saints'?",
-    "options": ["Sympathy for the Devil", "Street Fighting Man", "Gimme Shelter", "Salt of the Earth"],
+    "options": [
+      "Sympathy for the Devil",
+      "Street Fighting Man",
+      "Gimme Shelter",
+      "Salt of the Earth"
+    ],
     "answer": "Sympathy for the Devil",
     "points": 10
   },
@@ -3034,7 +3104,12 @@
     "type": "multiple_choice",
     "category": "lyrics",
     "question": "Which song from Hackney Diamonds has the chorus 'Angry, angry'?",
-    "options": ["Angry", "Bite My Head Off", "Mess It Up", "Live by the Sword"],
+    "options": [
+      "Angry",
+      "Bite My Head Off",
+      "Mess It Up",
+      "Live by the Sword"
+    ],
     "answer": "Angry",
     "points": 10
   },
@@ -3060,7 +3135,12 @@
     "type": "multiple_choice",
     "category": "trivia",
     "question": "What year were the Rolling Stones inducted into the Rock and Roll Hall of Fame?",
-    "options": ["1986", "1989", "1992", "1995"],
+    "options": [
+      "1986",
+      "1989",
+      "1992",
+      "1995"
+    ],
     "answer": "1989",
     "points": 10
   },
@@ -3069,7 +3149,12 @@
     "type": "multiple_choice",
     "category": "trivia",
     "question": "What is the name of the Rolling Stones' famous tongue-and-lips logo designer?",
-    "options": ["Andy Warhol", "John Pasche", "Peter Blake", "Robert Frank"],
+    "options": [
+      "Andy Warhol",
+      "John Pasche",
+      "Peter Blake",
+      "Robert Frank"
+    ],
     "answer": "John Pasche",
     "points": 10
   },
@@ -3086,7 +3171,12 @@
     "type": "multiple_choice",
     "category": "trivia",
     "question": "In what year did the Rolling Stones play their first gig at the Marquee Club in London?",
-    "options": ["1960", "1962", "1964", "1966"],
+    "options": [
+      "1960",
+      "1962",
+      "1964",
+      "1966"
+    ],
     "answer": "1962",
     "points": 10
   },
@@ -3104,7 +3194,12 @@
     "type": "multiple_choice",
     "category": "trivia",
     "question": "Which Rolling Stones tour became the highest-grossing tour of 2005-2007?",
-    "options": ["Licks Tour", "A Bigger Bang Tour", "Bridges to Babylon Tour", "Voodoo Lounge Tour"],
+    "options": [
+      "Licks Tour",
+      "A Bigger Bang Tour",
+      "Bridges to Babylon Tour",
+      "Voodoo Lounge Tour"
+    ],
     "answer": "A Bigger Bang Tour",
     "points": 10
   },
@@ -3121,7 +3216,12 @@
     "type": "multiple_choice",
     "category": "trivia",
     "question": "What tragic event occurred during the Stones' concert at Altamont Speedway in 1969?",
-    "options": ["Stage collapse", "A fan was killed", "Mick Jagger was injured", "The concert was cancelled after one song"],
+    "options": [
+      "Stage collapse",
+      "A fan was killed",
+      "Mick Jagger was injured",
+      "The concert was cancelled after one song"
+    ],
     "answer": "A fan was killed",
     "points": 10
   },
@@ -3139,7 +3239,12 @@
     "type": "multiple_choice",
     "category": "trivia",
     "question": "Which record label did the Rolling Stones found in 1970?",
-    "options": ["Virgin Records", "Rolling Stones Records", "Stones Throw Records", "Decca Records"],
+    "options": [
+      "Virgin Records",
+      "Rolling Stones Records",
+      "Stones Throw Records",
+      "Decca Records"
+    ],
     "answer": "Rolling Stones Records",
     "points": 10
   },
@@ -3155,8 +3260,13 @@
     "id": "mc-tri-068",
     "type": "multiple_choice",
     "category": "trivia",
-    "question": "Which Stones member wrote the score for three films directed by Volker Schlöndorff?",
-    "options": ["Mick Jagger", "Keith Richards", "Charlie Watts", "Bill Wyman"],
+    "question": "Which Stones member wrote the score for three films directed by Volker Schl\u00f6ndorff?",
+    "options": [
+      "Mick Jagger",
+      "Keith Richards",
+      "Charlie Watts",
+      "Bill Wyman"
+    ],
     "answer": "Mick Jagger",
     "points": 10
   },
@@ -3174,7 +3284,12 @@
     "type": "multiple_choice",
     "category": "trivia",
     "question": "How many UK number-one singles did the Rolling Stones have?",
-    "options": ["5", "8", "12", "15"],
+    "options": [
+      "5",
+      "8",
+      "12",
+      "15"
+    ],
     "answer": "8",
     "points": 10
   },
@@ -3191,7 +3306,12 @@
     "type": "multiple_choice",
     "category": "trivia",
     "question": "Which famous producer worked with the Rolling Stones on 'Some Girls' and 'Tattoo You'?",
-    "options": ["Jimmy Miller", "The Glimmer Twins", "Andrew Loog Oldham", "George Martin"],
+    "options": [
+      "Jimmy Miller",
+      "The Glimmer Twins",
+      "Andrew Loog Oldham",
+      "George Martin"
+    ],
     "answer": "The Glimmer Twins",
     "points": 10
   },
@@ -3209,7 +3329,12 @@
     "type": "multiple_choice",
     "category": "trivia",
     "question": "Which Stones member was a trained graphic designer and created early tour posters?",
-    "options": ["Charlie Watts", "Brian Jones", "Keith Richards", "Bill Wyman"],
+    "options": [
+      "Charlie Watts",
+      "Brian Jones",
+      "Keith Richards",
+      "Bill Wyman"
+    ],
     "answer": "Charlie Watts",
     "points": 10
   },
@@ -3226,7 +3351,12 @@
     "type": "multiple_choice",
     "category": "trivia",
     "question": "What was the name of the Rolling Stones' 2022-2023 tour celebrating 60 years?",
-    "options": ["No Filter Tour", "SIXTY Tour", "Hackney Diamonds Tour", "Licks Tour"],
+    "options": [
+      "No Filter Tour",
+      "SIXTY Tour",
+      "Hackney Diamonds Tour",
+      "Licks Tour"
+    ],
     "answer": "SIXTY Tour",
     "points": 10
   },
@@ -3234,7 +3364,7 @@
     "id": "ft-tri-077",
     "type": "free_text",
     "category": "trivia",
-    "question": "What is the name of the Rolling Stones' 2023 studio album — their first of original material in 18 years?",
+    "question": "What is the name of the Rolling Stones' 2023 studio album \u2014 their first of original material in 18 years?",
     "answer": "Hackney Diamonds",
     "fuzzy": true,
     "points": 10
@@ -3244,7 +3374,12 @@
     "type": "multiple_choice",
     "category": "trivia",
     "question": "Which Stones album was recorded at Muscle Shoals Sound Studio in Alabama?",
-    "options": ["Sticky Fingers", "Let It Bleed", "Beggars Banquet", "Goats Head Soup"],
+    "options": [
+      "Sticky Fingers",
+      "Let It Bleed",
+      "Beggars Banquet",
+      "Goats Head Soup"
+    ],
     "answer": "Sticky Fingers",
     "points": 10
   },
@@ -3261,7 +3396,12 @@
     "type": "multiple_choice",
     "category": "trivia",
     "question": "In what year did Charlie Watts pass away?",
-    "options": ["2019", "2020", "2021", "2022"],
+    "options": [
+      "2019",
+      "2020",
+      "2021",
+      "2022"
+    ],
     "answer": "2021",
     "points": 10
   },
@@ -3271,6 +3411,424 @@
     "category": "trivia",
     "question": "The Rolling Stones performed at the Super Bowl halftime show in ___ (year)",
     "answer": "2006",
+    "points": 10
+  },
+  {
+    "id": "tl-001",
+    "type": "timeline",
+    "category": "albums",
+    "question": "Put these albums in order of release (earliest first)",
+    "albums": [
+      {
+        "name": "The Rolling Stones",
+        "year": 1964,
+        "image": "/images/albums/the-rolling-stones.jpg"
+      },
+      {
+        "name": "It's Only Rock 'n Roll",
+        "year": 1974,
+        "image": "/images/albums/its-only-rock-n-roll.jpg"
+      },
+      {
+        "name": "Tattoo You",
+        "year": 1981,
+        "image": "/images/albums/tattoo-you.jpg"
+      }
+    ],
+    "points": 10
+  },
+  {
+    "id": "tl-002",
+    "type": "timeline",
+    "category": "albums",
+    "question": "Put these albums in order of release (earliest first)",
+    "albums": [
+      {
+        "name": "12 X 5",
+        "year": 1964,
+        "image": "/images/albums/12-x-5.jpg"
+      },
+      {
+        "name": "Out of Our Heads",
+        "year": 1965,
+        "image": "/images/albums/out-of-our-heads.jpg"
+      },
+      {
+        "name": "Bridges to Babylon",
+        "year": 1997,
+        "image": "/images/albums/bridges-to-babylon.jpg"
+      }
+    ],
+    "points": 10
+  },
+  {
+    "id": "tl-003",
+    "type": "timeline",
+    "category": "albums",
+    "question": "Put these albums in order of release (earliest first)",
+    "albums": [
+      {
+        "name": "Aftermath",
+        "year": 1966,
+        "image": "/images/albums/aftermath.jpg"
+      },
+      {
+        "name": "Goats Head Soup",
+        "year": 1973,
+        "image": "/images/albums/goats-head-soup.jpg"
+      },
+      {
+        "name": "Bridges to Babylon",
+        "year": 1997,
+        "image": "/images/albums/bridges-to-babylon.jpg"
+      }
+    ],
+    "points": 10
+  },
+  {
+    "id": "tl-004",
+    "type": "timeline",
+    "category": "albums",
+    "question": "Put these albums in order of release (earliest first)",
+    "albums": [
+      {
+        "name": "Beggars Banquet",
+        "year": 1968,
+        "image": "/images/albums/beggars-banquet.jpg"
+      },
+      {
+        "name": "Sticky Fingers",
+        "year": 1971,
+        "image": "/images/albums/sticky-fingers.jpg"
+      },
+      {
+        "name": "Blue & Lonesome",
+        "year": 2016,
+        "image": "/images/albums/blue-&-lonesome.jpg"
+      }
+    ],
+    "points": 10
+  },
+  {
+    "id": "tl-005",
+    "type": "timeline",
+    "category": "albums",
+    "question": "Put these albums in order of release (earliest first)",
+    "albums": [
+      {
+        "name": "Emotional Rescue",
+        "year": 1980,
+        "image": "/images/albums/emotional-rescue.jpg"
+      },
+      {
+        "name": "Dirty Work",
+        "year": 1986,
+        "image": "/images/albums/dirty-work.jpg"
+      },
+      {
+        "name": "A Bigger Bang",
+        "year": 2005,
+        "image": "/images/albums/a-bigger-bang.jpg"
+      }
+    ],
+    "points": 10
+  },
+  {
+    "id": "tl-006",
+    "type": "timeline",
+    "category": "albums",
+    "question": "Put these albums in order of release (earliest first)",
+    "albums": [
+      {
+        "name": "Let It Bleed",
+        "year": 1969,
+        "image": "/images/albums/let-it-bleed.jpg"
+      },
+      {
+        "name": "Exile on Main St.",
+        "year": 1972,
+        "image": "/images/albums/exile-on-main-st.jpg"
+      },
+      {
+        "name": "Goats Head Soup",
+        "year": 1973,
+        "image": "/images/albums/goats-head-soup.jpg"
+      }
+    ],
+    "points": 10
+  },
+  {
+    "id": "tl-007",
+    "type": "timeline",
+    "category": "albums",
+    "question": "Put these albums in order of release (earliest first)",
+    "albums": [
+      {
+        "name": "It's Only Rock 'n Roll",
+        "year": 1974,
+        "image": "/images/albums/its-only-rock-n-roll.jpg"
+      },
+      {
+        "name": "Some Girls",
+        "year": 1978,
+        "image": "/images/albums/some-girls.jpg"
+      },
+      {
+        "name": "Bridges to Babylon",
+        "year": 1997,
+        "image": "/images/albums/bridges-to-babylon.jpg"
+      }
+    ],
+    "points": 10
+  },
+  {
+    "id": "tl-008",
+    "type": "timeline",
+    "category": "albums",
+    "question": "Put these albums in order of release (earliest first)",
+    "albums": [
+      {
+        "name": "The Rolling Stones No. 2",
+        "year": 1965,
+        "image": "/images/albums/the-rolling-stones-no-2.jpg"
+      },
+      {
+        "name": "Beggars Banquet",
+        "year": 1968,
+        "image": "/images/albums/beggars-banquet.jpg"
+      },
+      {
+        "name": "Black and Blue",
+        "year": 1976,
+        "image": "/images/albums/black-and-blue.jpg"
+      }
+    ],
+    "points": 10
+  },
+  {
+    "id": "tl-009",
+    "type": "timeline",
+    "category": "albums",
+    "question": "Put these albums in order of release (earliest first)",
+    "albums": [
+      {
+        "name": "Let It Bleed",
+        "year": 1969,
+        "image": "/images/albums/let-it-bleed.jpg"
+      },
+      {
+        "name": "Sticky Fingers",
+        "year": 1971,
+        "image": "/images/albums/sticky-fingers.jpg"
+      },
+      {
+        "name": "Tattoo You",
+        "year": 1981,
+        "image": "/images/albums/tattoo-you.jpg"
+      }
+    ],
+    "points": 10
+  },
+  {
+    "id": "tl-010",
+    "type": "timeline",
+    "category": "albums",
+    "question": "Put these albums in order of release (earliest first)",
+    "albums": [
+      {
+        "name": "Exile on Main St.",
+        "year": 1972,
+        "image": "/images/albums/exile-on-main-st.jpg"
+      },
+      {
+        "name": "Undercover",
+        "year": 1983,
+        "image": "/images/albums/undercover.jpg"
+      },
+      {
+        "name": "Blue & Lonesome",
+        "year": 2016,
+        "image": "/images/albums/blue-&-lonesome.jpg"
+      }
+    ],
+    "points": 10
+  },
+  {
+    "id": "tl-011",
+    "type": "timeline",
+    "category": "albums",
+    "question": "Put these albums in order of release (earliest first)",
+    "albums": [
+      {
+        "name": "The Rolling Stones",
+        "year": 1964,
+        "image": "/images/albums/the-rolling-stones.jpg"
+      },
+      {
+        "name": "It's Only Rock 'n Roll",
+        "year": 1974,
+        "image": "/images/albums/its-only-rock-n-roll.jpg"
+      },
+      {
+        "name": "A Bigger Bang",
+        "year": 2005,
+        "image": "/images/albums/a-bigger-bang.jpg"
+      }
+    ],
+    "points": 10
+  },
+  {
+    "id": "tl-012",
+    "type": "timeline",
+    "category": "albums",
+    "question": "Put these albums in order of release (earliest first)",
+    "albums": [
+      {
+        "name": "The Rolling Stones",
+        "year": 1964,
+        "image": "/images/albums/the-rolling-stones.jpg"
+      },
+      {
+        "name": "Aftermath",
+        "year": 1966,
+        "image": "/images/albums/aftermath.jpg"
+      },
+      {
+        "name": "Let It Bleed",
+        "year": 1969,
+        "image": "/images/albums/let-it-bleed.jpg"
+      }
+    ],
+    "points": 10
+  },
+  {
+    "id": "tl-013",
+    "type": "timeline",
+    "category": "albums",
+    "question": "Put these albums in order of release (earliest first)",
+    "albums": [
+      {
+        "name": "12 X 5",
+        "year": 1964,
+        "image": "/images/albums/12-x-5.jpg"
+      },
+      {
+        "name": "Out of Our Heads",
+        "year": 1965,
+        "image": "/images/albums/out-of-our-heads.jpg"
+      },
+      {
+        "name": "It's Only Rock 'n Roll",
+        "year": 1974,
+        "image": "/images/albums/its-only-rock-n-roll.jpg"
+      }
+    ],
+    "points": 10
+  },
+  {
+    "id": "tl-014",
+    "type": "timeline",
+    "category": "albums",
+    "question": "Put these albums in order of release (earliest first)",
+    "albums": [
+      {
+        "name": "Aftermath",
+        "year": 1966,
+        "image": "/images/albums/aftermath.jpg"
+      },
+      {
+        "name": "Black and Blue",
+        "year": 1976,
+        "image": "/images/albums/black-and-blue.jpg"
+      },
+      {
+        "name": "Voodoo Lounge",
+        "year": 1994,
+        "image": "/images/albums/voodoo-lounge.jpg"
+      }
+    ],
+    "points": 10
+  },
+  {
+    "id": "tl-015",
+    "type": "timeline",
+    "category": "albums",
+    "question": "Put these albums in order of release (earliest first)",
+    "albums": [
+      {
+        "name": "12 X 5",
+        "year": 1964,
+        "image": "/images/albums/12-x-5.jpg"
+      },
+      {
+        "name": "Emotional Rescue",
+        "year": 1980,
+        "image": "/images/albums/emotional-rescue.jpg"
+      },
+      {
+        "name": "Voodoo Lounge",
+        "year": 1994,
+        "image": "/images/albums/voodoo-lounge.jpg"
+      }
+    ],
+    "points": 10
+  },
+  {
+    "id": "mc-alb-073",
+    "type": "multiple_choice",
+    "category": "albums",
+    "question": "Which album was the first to be released on Rolling Stones Records, their own label?",
+    "options": [
+      "Let It Bleed",
+      "Sticky Fingers",
+      "Exile on Main St.",
+      "Goats Head Soup"
+    ],
+    "answer": "Sticky Fingers",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-074",
+    "type": "fill_blank",
+    "category": "albums",
+    "question": "The 1973 album 'Goats Head ___' was recorded in Jamaica",
+    "answer": "Soup",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-075",
+    "type": "multiple_choice",
+    "category": "albums",
+    "question": "Which album features the song 'Fool to Cry'?",
+    "options": [
+      "Black and Blue",
+      "Some Girls",
+      "Emotional Rescue",
+      "Tattoo You"
+    ],
+    "answer": "Black and Blue",
+    "points": 10
+  },
+  {
+    "id": "fb-alb-076",
+    "type": "fill_blank",
+    "category": "albums",
+    "question": "Complete the album title: 'Their Satanic Majesties ___'",
+    "answer": "Request",
+    "points": 10
+  },
+  {
+    "id": "mc-alb-077",
+    "type": "multiple_choice",
+    "category": "albums",
+    "question": "Which was the last Rolling Stones studio album to feature Charlie Watts?",
+    "options": [
+      "A Bigger Bang",
+      "Blue & Lonesome",
+      "Hackney Diamonds",
+      "Bridges to Babylon"
+    ],
+    "answer": "Blue & Lonesome",
     "points": 10
   }
 ]
