@@ -46,10 +46,19 @@ export function EndScreen({ results, nickname, onSubmit, onPlayAgain }: Props) {
             padding: '10px 0', borderBottom: '1px solid var(--mid)',
             fontSize: 14,
           }}>
-            <div style={{ flex: 1, marginRight: 12, color: r.correct ? 'var(--light)' : 'var(--muted)' }}>
-              {r.question.question.length > 50
-                ? r.question.question.slice(0, 50) + '…'
-                : r.question.question}
+            <div style={{ flex: 1, marginRight: 12 }}>
+              <div style={{ color: r.correct ? 'var(--light)' : 'var(--muted)' }}>
+                {r.question.question.length > 50
+                  ? r.question.question.slice(0, 50) + '…'
+                  : r.question.question}
+              </div>
+              {!r.correct && (
+                <div style={{ color: 'var(--muted)', fontSize: 12, marginTop: 2 }}>
+                  {r.question.type === 'timeline'
+                    ? r.question.albums.slice().sort((a, b) => a.year - b.year).map(a => a.name).join(' → ')
+                    : r.question.answer}
+                </div>
+              )}
             </div>
             <div style={{ color: r.correct ? 'var(--red)' : 'var(--muted)', fontWeight: 700, whiteSpace: 'nowrap' }}>
               {r.correct ? `+${r.pointsEarned}` : '✗'}
