@@ -1,5 +1,9 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import type { TimelineAlbum, TimelineQuestion } from '../types'
+
+function shuffleAlbums(albums: TimelineAlbum[]): TimelineAlbum[] {
+  return [...albums].sort(() => Math.random() - 0.5)
+}
 
 interface Props {
   question: TimelineQuestion
@@ -8,14 +12,9 @@ interface Props {
 }
 
 export function TimelineCard({ question, onAnswer, disabled }: Props) {
-  const [items, setItems] = useState<TimelineAlbum[]>([])
+  const [items, setItems] = useState<TimelineAlbum[]>(() => shuffleAlbums(question.albums))
   const [dragIndex, setDragIndex] = useState<number | null>(null)
   const [overIndex, setOverIndex] = useState<number | null>(null)
-
-  useEffect(() => {
-    const shuffled = [...question.albums].sort(() => Math.random() - 0.5)
-    setItems(shuffled)
-  }, [question])
 
   function handleDragStart(index: number) {
     if (disabled) return
