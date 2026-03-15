@@ -12,6 +12,7 @@ from __future__ import annotations
 import io
 import json
 import sys
+import time
 from pathlib import Path
 
 try:
@@ -28,6 +29,26 @@ ATTRIBUTION_FILE = REPO_ROOT / "public" / "images" / "attribution.json"
 STUBS_FILE = REPO_ROOT / "public" / "images" / "question-stubs.json"
 
 HEADERS = {"User-Agent": "RollingStonesQuiz/1.0 (educational; contact: quiz@example.com)"}
+
+
+def api_request(url: str, params: dict, timeout: int = 15) -> requests.Response:
+    """Make an API request with retry and exponential backoff."""
+    for attempt in range(3):
+        try:
+            r = requests.get(url, params=params, headers=HEADERS, timeout=timeout)
+            if r.status_code == 429:
+                wait = 2 ** (attempt + 1)
+                print(f"  Rate limited (429). Waiting {wait}s...")
+                time.sleep(wait)
+                continue
+            r.raise_for_status()
+            return r
+        except requests.exceptions.Timeout:
+            wait = 2 ** (attempt + 1)
+            print(f"  Timeout. Retrying in {wait}s... (attempt {attempt + 1}/3)")
+            time.sleep(wait)
+    raise Exception("Failed after 3 retries")
+
 
 MEMBERS = [
     {"name": "Mick Jagger",    "slug": "mick-jagger",    "count": 5, "query": "Mick Jagger Rolling Stones concert"},
@@ -51,8 +72,7 @@ def search_commons(query: str, limit: int = 20) -> list[dict]:
         "srlimit": str(limit),
         "format": "json",
     }
-    r = requests.get(COMMONS_API, params=params, headers=HEADERS, timeout=15)
-    r.raise_for_status()
+    r = api_request(COMMONS_API, params)
     return r.json()["query"]["search"]
 
 
@@ -65,8 +85,7 @@ def get_file_info(title: str) -> dict | None:
         "iiurlwidth": "300",
         "format": "json",
     }
-    r = requests.get(COMMONS_API, params=params, headers=HEADERS, timeout=15)
-    r.raise_for_status()
+    r = api_request(COMMONS_API, params)
     pages = r.json()["query"]["pages"]
     page = next(iter(pages.values()))
     if "imageinfo" not in page:
@@ -91,6 +110,7 @@ def get_file_info(title: str) -> dict | None:
 def download_and_resize(url: str, dest: Path, max_width: int = 600) -> None:
     r = requests.get(url, headers=HEADERS, timeout=30)
     r.raise_for_status()
+    time.sleep(1.5)
     img = Image.open(io.BytesIO(r.content))
     if img.width > max_width:
         ratio = max_width / img.width
@@ -137,6 +157,7 @@ def process_member(member: dict, start_index: int = 1) -> tuple[list[dict], dict
                 candidates.append(info)
         except Exception:
             continue
+        time.sleep(1.5)
 
     if not candidates:
         print("  No freely-licensed candidates found. Skipping.")
@@ -207,6 +228,7 @@ def main():
         stubs, new_attr = process_member(member, start_index=existing_count + 1)
         all_stubs.extend(stubs)
         attribution.update(new_attr)
+        time.sleep(5)
 
     with open(ATTRIBUTION_FILE, "w") as f:
         json.dump(attribution, f, indent=2)
