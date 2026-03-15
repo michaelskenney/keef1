@@ -1,8 +1,8 @@
 import { useState, useEffect, useCallback } from 'react'
 import type { Question, AnsweredQuestion } from '../types'
 import { CONFIG } from '../config'
-import { checkAnswer } from '../lib/quizEngine'
-import { calcScore } from '../lib/scoring'
+import { checkAnswer, countCorrectPositions } from '../lib/quizEngine'
+import { calcScore, calcTimelineScore } from '../lib/scoring'
 import { TimerBar } from './TimerBar'
 import { QuestionCard } from './QuestionCard'
 
@@ -26,13 +26,20 @@ export function QuizScreen({ questions, onComplete }: Props) {
     setAnswered(true)
 
     const correct = checkAnswer(currentQuestion, userAnswer)
-    const points = calcScore(
-      correct,
-      timeRemaining,
-      CONFIG.secondsPerQuestion,
-      CONFIG.basePoints,
-      CONFIG.maxSpeedBonus
-    )
+    let points: number
+    if (currentQuestion.type === 'timeline') {
+      const correctPos = countCorrectPositions(currentQuestion, userAnswer)
+      points = calcTimelineScore(
+        correctPos, currentQuestion.albums.length,
+        timeRemaining, CONFIG.secondsPerQuestion,
+        CONFIG.basePoints, CONFIG.maxSpeedBonus
+      )
+    } else {
+      points = calcScore(
+        correct, timeRemaining, CONFIG.secondsPerQuestion,
+        CONFIG.basePoints, CONFIG.maxSpeedBonus
+      )
+    }
 
     const result: AnsweredQuestion = {
       question: currentQuestion,
@@ -92,7 +99,11 @@ export function QuizScreen({ questions, onComplete }: Props) {
           <div style={{ textAlign: 'center', padding: 40 }}>
             <div style={{ fontSize: 64 }}>{lastResult.correct ? '✓' : '✗'}</div>
             <div style={{ fontSize: 'var(--font-size-xl)', fontWeight: 700, marginTop: 8 }}>
-              {lastResult.correct ? `+${lastResult.points} pts` : `Correct: ${currentQuestion.answer}`}
+              {lastResult.correct
+                ? `+${lastResult.points} pts`
+                : currentQuestion.type === 'timeline'
+                  ? `+${lastResult.points} pts`
+                  : `Correct: ${currentQuestion.answer}`}
             </div>
           </div>
         </div>

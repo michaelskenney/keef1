@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import type { Question } from '../types'
+import { TimelineCard } from './TimelineCard'
 
 interface Props {
   question: Question
@@ -13,6 +14,10 @@ export function QuestionCard({ question, onAnswer, disabled }: Props) {
   function handleTextSubmit() {
     if (!textInput.trim()) return
     onAnswer(textInput.trim())
+  }
+
+  if (question.type === 'timeline') {
+    return <TimelineCard question={question} onAnswer={onAnswer} disabled={disabled} />
   }
 
   return (

@@ -155,7 +155,7 @@ describe('selectQuestions', () => {
     ]
     for (let i = 0; i < 30; i++) {
       const result = selectQuestions(dedupPool, 7, { members: 1, albums: 1, lyrics: 1 })
-      const answers = result.map(q => q.answer.toLowerCase().trim())
+      const answers = result.map(q => ('answer' in q ? q.answer : '').toLowerCase().trim())
       expect(new Set(answers).size).toBe(answers.length)
     }
   })
