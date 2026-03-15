@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
-import { checkAnswer } from './quizEngine'
-import type { Question } from '../types'
+import { checkAnswer, countCorrectPositions } from './quizEngine'
+import type { Question, TimelineQuestion } from '../types'
 
 const mcQ: Question = {
   id: '1', type: 'multiple_choice', category: 'albums',
@@ -26,5 +26,39 @@ describe('checkAnswer', () => {
 
   it('fuzzy match rejects wrong answer', () => {
     expect(checkAnswer(ftQ, 'Mick Jagger')).toBe(false)
+  })
+})
+
+const tlQ: TimelineQuestion = {
+  id: 'tl-1', type: 'timeline', category: 'albums',
+  question: 'Order these albums',
+  albums: [
+    { name: 'Sticky Fingers', year: 1971, image: '/img/a.jpg' },
+    { name: 'Exile on Main St.', year: 1972, image: '/img/b.jpg' },
+    { name: 'Some Girls', year: 1978, image: '/img/c.jpg' },
+  ],
+  points: 10,
+}
+
+describe('checkAnswer — timeline', () => {
+  it('correct order returns true', () => {
+    const answer = JSON.stringify(['Sticky Fingers', 'Exile on Main St.', 'Some Girls'])
+    expect(checkAnswer(tlQ, answer)).toBe(true)
+  })
+  it('wrong order returns false', () => {
+    const answer = JSON.stringify(['Some Girls', 'Sticky Fingers', 'Exile on Main St.'])
+    expect(checkAnswer(tlQ, answer)).toBe(false)
+  })
+})
+
+describe('countCorrectPositions', () => {
+  it('returns 3 when all correct', () => {
+    expect(countCorrectPositions(tlQ, JSON.stringify(['Sticky Fingers', 'Exile on Main St.', 'Some Girls']))).toBe(3)
+  })
+  it('returns 1 when only first correct', () => {
+    expect(countCorrectPositions(tlQ, JSON.stringify(['Sticky Fingers', 'Some Girls', 'Exile on Main St.']))).toBe(1)
+  })
+  it('returns 0 when none correct', () => {
+    expect(countCorrectPositions(tlQ, JSON.stringify(['Exile on Main St.', 'Some Girls', 'Sticky Fingers']))).toBe(0)
   })
 })
