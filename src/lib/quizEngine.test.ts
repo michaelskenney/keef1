@@ -49,6 +49,9 @@ describe('checkAnswer — timeline', () => {
     const answer = JSON.stringify(['Some Girls', 'Sticky Fingers', 'Exile on Main St.'])
     expect(checkAnswer(tlQ, answer)).toBe(false)
   })
+  it('returns false for empty answer (timer expiry)', () => {
+    expect(checkAnswer(tlQ, '')).toBe(false)
+  })
 })
 
 describe('countCorrectPositions', () => {
@@ -60,5 +63,8 @@ describe('countCorrectPositions', () => {
   })
   it('returns 0 when none correct', () => {
     expect(countCorrectPositions(tlQ, JSON.stringify(['Exile on Main St.', 'Some Girls', 'Sticky Fingers']))).toBe(0)
+  })
+  it('returns 0 for empty answer (timer expiry)', () => {
+    expect(countCorrectPositions(tlQ, '')).toBe(0)
   })
 })
