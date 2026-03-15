@@ -1,4 +1,4 @@
-export type QuestionType = 'multiple_choice' | 'fill_blank' | 'free_text' | 'image'
+export type QuestionType = 'multiple_choice' | 'fill_blank' | 'free_text' | 'image' | 'timeline'
 export type Category = 'albums' | 'members' | 'lyrics' | 'trivia'
 
 export interface BaseQuestion {
@@ -31,11 +31,27 @@ export interface ImageQuestion extends BaseQuestion {
   options: string[]
 }
 
+export interface TimelineAlbum {
+  name: string
+  year: number
+  image: string
+}
+
+export interface TimelineQuestion {
+  id: string
+  type: 'timeline'
+  category: Category
+  question: string
+  albums: TimelineAlbum[]
+  points: number
+}
+
 export type Question =
   | MultipleChoiceQuestion
   | FillBlankQuestion
   | FreeTextQuestion
   | ImageQuestion
+  | TimelineQuestion
 
 export interface AnsweredQuestion {
   question: Question
