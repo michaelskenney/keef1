@@ -21,6 +21,19 @@ const makeFB = (id: string, category: string): Question => ({
   points: 10,
 })
 
+const makeTimeline = (id: string): Question => ({
+  id,
+  type: 'timeline',
+  category: 'albums',
+  question: 'Order these albums',
+  albums: [
+    { name: 'A', year: 1970, image: '/a.jpg' },
+    { name: 'B', year: 1980, image: '/b.jpg' },
+    { name: 'C', year: 1990, image: '/c.jpg' },
+  ],
+  points: 10,
+} as Question)
+
 const makeImage = (id: string, category: string): Question => ({
   id,
   type: 'image',
@@ -101,6 +114,27 @@ describe('selectQuestions', () => {
     ]
     const result = selectQuestions(small, 10, weights)
     expect(result.length).toBeLessThanOrEqual(small.length)
+  })
+
+  it('includes timeline questions without crashing on missing answer field', () => {
+    const tlPool: Question[] = [
+      makeFB('ly-x', 'lyrics'),
+      makeImage('ai-x', 'albums'),
+      makeImage('mi-x', 'members'),
+      makeTimeline('tl-1'),
+      makeTimeline('tl-2'),
+      makeMC('fill-1', 'trivia'),
+      makeMC('fill-2', 'trivia'),
+      makeMC('fill-3', 'trivia'),
+      makeMC('fill-4', 'trivia'),
+      makeMC('fill-5', 'trivia'),
+      makeMC('fill-6', 'trivia'),
+      makeMC('fill-7', 'trivia'),
+    ]
+    const result = selectQuestions(tlPool, 10, weights)
+    expect(result).toHaveLength(10)
+    const ids = result.map(q => q.id)
+    expect(new Set(ids).size).toBe(10)
   })
 
   it('never selects two questions with the same normalized answer in one round', () => {

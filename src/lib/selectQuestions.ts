@@ -13,7 +13,7 @@ function pickUnique(
   const shuffled = [...weighted].sort(() => Math.random() - 0.5)
   const result: Question[] = []
   for (const q of shuffled) {
-    const normAnswer = q.answer.toLowerCase().trim()
+    const normAnswer = 'answer' in q ? (q as any).answer.toLowerCase().trim() : q.id
     if (!usedIds.has(q.id) && !usedAnswers.has(normAnswer)) {
       result.push(q)
       usedIds.add(q.id)
