@@ -3830,5 +3830,136 @@
     ],
     "answer": "Blue & Lonesome",
     "points": 10
+  },
+  {
+    "id": "mc-mem-082",
+    "type": "multiple_choice",
+    "category": "members",
+    "question": "What instrument did Brian Jones primarily play in the early Rolling Stones?",
+    "options": ["Bass", "Drums", "Guitar", "Keyboards"],
+    "answer": "Guitar",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-083",
+    "type": "fill_blank",
+    "category": "members",
+    "question": "Keith Richards' open-G guitar tuning removes the ___ string (which string number?)",
+    "answer": "6th",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-084",
+    "type": "multiple_choice",
+    "category": "members",
+    "question": "Which member joined the Stones in 1975, replacing Mick Taylor?",
+    "options": ["Ron Wood", "Bill Wyman", "Darryl Jones", "Ian McLagan"],
+    "answer": "Ron Wood",
+    "points": 10
+  },
+  {
+    "id": "ft-mem-085",
+    "type": "free_text",
+    "category": "members",
+    "question": "Who was the Rolling Stones' bassist from 1962 to 1993?",
+    "answer": "Bill Wyman",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-mem-086",
+    "type": "multiple_choice",
+    "category": "members",
+    "question": "Which Stones guitarist played on the albums 'Sticky Fingers' and 'Exile on Main St.' before leaving in 1974?",
+    "options": ["Brian Jones", "Mick Taylor", "Ron Wood", "Ry Cooder"],
+    "answer": "Mick Taylor",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-087",
+    "type": "fill_blank",
+    "category": "members",
+    "question": "Charlie Watts was known for his passion for ___ music outside of rock (genre)",
+    "answer": "jazz",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-088",
+    "type": "multiple_choice",
+    "category": "members",
+    "question": "What was Mick Jagger studying at the London School of Economics before the Stones took off?",
+    "options": ["Law", "Economics", "Business", "Political Science"],
+    "answer": "Economics",
+    "points": 10
+  },
+  {
+    "id": "ft-mem-089",
+    "type": "free_text",
+    "category": "members",
+    "question": "Who replaced Charlie Watts as the Rolling Stones' touring drummer?",
+    "answer": "Steve Jordan",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-mem-090",
+    "type": "multiple_choice",
+    "category": "members",
+    "question": "Which original Stone drowned in his swimming pool in July 1969?",
+    "options": ["Brian Jones", "Ian Stewart", "Bill Wyman", "Mick Taylor"],
+    "answer": "Brian Jones",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-091",
+    "type": "fill_blank",
+    "category": "members",
+    "question": "Ian ___ was the 'sixth Stone' — the Stones' road manager and occasional pianist",
+    "answer": "Stewart",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-092",
+    "type": "multiple_choice",
+    "category": "members",
+    "question": "Which band was Ron Wood a member of before joining the Rolling Stones?",
+    "options": ["The Who", "Faces", "Led Zeppelin", "The Yardbirds"],
+    "answer": "Faces",
+    "points": 10
+  },
+  {
+    "id": "ft-mem-093",
+    "type": "free_text",
+    "category": "members",
+    "question": "Who has been the Rolling Stones' touring bassist since 1994, though never an official member?",
+    "answer": "Darryl Jones",
+    "fuzzy": true,
+    "points": 10
+  },
+  {
+    "id": "mc-mem-094",
+    "type": "multiple_choice",
+    "category": "members",
+    "question": "Where did Mick Jagger and Keith Richards first meet as children?",
+    "options": ["London", "Liverpool", "Dartford", "Manchester"],
+    "answer": "Dartford",
+    "points": 10
+  },
+  {
+    "id": "fb-mem-095",
+    "type": "fill_blank",
+    "category": "members",
+    "question": "Keith Richards released a solo album in 1988 called 'Talk Is ___'",
+    "answer": "Cheap",
+    "points": 10
+  },
+  {
+    "id": "mc-mem-096",
+    "type": "multiple_choice",
+    "category": "members",
+    "question": "Which Stones member wrote the children's book 'Monkey Me'?",
+    "options": ["Mick Jagger", "Keith Richards", "Ron Wood", "Charlie Watts"],
+    "answer": "Ron Wood",
+    "points": 10
   }
 ]
