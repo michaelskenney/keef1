@@ -1,73 +1,79 @@
-# React + TypeScript + Vite
+# The Rolling Stones Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A timed music trivia game covering the Rolling Stones' albums, lyrics, band members, and history. Players answer 10 questions per round, earn speed-bonus points, and compete on a weekly leaderboard.
 
-Currently, two official plugins are available:
+**Live site:** Deployed on Netlify
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How It Works
 
-## React Compiler
+1. Enter a nickname and start a round.
+2. Answer 10 questions against a 60-second countdown timer per question.
+3. Earn points for correct answers plus a speed bonus for answering quickly.
+4. After each round, see your results and submit your score to the weekly leaderboard.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Question Types
 
-## Expanding the ESLint configuration
+- **Multiple choice** — pick the right answer
+- **Fill in the blank** — complete a lyric or fact (fuzzy matching via Fuse.js)
+- **Free text** — type your answer
+- **Image** — identify album covers or band members from photos
+- **Timeline** — drag-and-drop albums into chronological order
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Every round guarantees at least one lyrics question, one album-cover image question, and one band-member image question; the rest are filled randomly across categories.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **React 19** + **TypeScript** — single-page app, no router
+- **Vite** — dev server and build tooling
+- **Supabase** — weekly leaderboard persistence
+- **Fuse.js** — fuzzy answer matching for free-text questions
+- **Vitest** + **Testing Library** — unit and component tests
+- **Netlify** — hosting with SPA redirect
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Getting Started
+
+```bash
+npm install
+cp .env.example .env.local   # then fill in your Supabase credentials
+npm run dev                   # http://localhost:5173
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Environment Variables
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Create a `.env.local` with:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+VITE_SUPABASE_URL=...
+VITE_SUPABASE_ANON_KEY=...
+```
+
+## Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start dev server |
+| `npm run build` | Type-check + production build |
+| `npm run lint` | Run ESLint |
+| `npm run test` | Run all tests once |
+| `npm run test:watch` | Run tests in watch mode |
+| `npm run preview` | Preview production build |
+
+## Project Structure
+
+```
+src/
+  components/   # React screens and UI elements (flat, no nesting)
+  lib/          # Pure logic — scoring, question selection, fuzzy matching
+  config.ts     # Game constants (timer, points, questions per round)
+  types.ts      # Shared TypeScript types
+  App.tsx       # Screen flow: home → quiz → feedback → end → leaderboard
+public/
+  questions.json          # Question bank (fetched at runtime)
+  images/                 # Album covers and band member photos
+  images/attribution.json # Image attribution metadata
+scripts/        # One-off Python content generators (not part of the build)
+```
+
+## License
+
+Private project.
