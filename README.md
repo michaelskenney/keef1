@@ -2,7 +2,7 @@
 
 A timed music trivia game covering the Rolling Stones' albums, lyrics, band members, and history. Players answer 10 questions per round, earn speed-bonus points, and compete on a weekly leaderboard.
 
-**Live site:** Deployed on Netlify
+**Live site:** Deployed on Cloudflare Pages
 
 ## How It Works
 
@@ -25,16 +25,16 @@ Every round guarantees at least one lyrics question, one album-cover image quest
 
 - **React 19** + **TypeScript** — single-page app, no router
 - **Vite** — dev server and build tooling
-- **Supabase** — weekly leaderboard persistence
+- **Cloudflare D1** — weekly leaderboard persistence (via Cloudflare Worker)
 - **Fuse.js** — fuzzy answer matching for free-text questions
 - **Vitest** + **Testing Library** — unit and component tests
-- **Netlify** — hosting with SPA redirect
+- **Cloudflare Pages** — hosting with SPA redirect
 
 ## Getting Started
 
 ```bash
 npm install
-cp .env.example .env.local   # then fill in your Supabase credentials
+cp .env.example .env.local   # then fill in the Worker API URL
 npm run dev                   # http://localhost:5173
 ```
 
@@ -43,8 +43,7 @@ npm run dev                   # http://localhost:5173
 Create a `.env.local` with:
 
 ```
-VITE_SUPABASE_URL=...
-VITE_SUPABASE_ANON_KEY=...
+VITE_LEADERBOARD_API_URL=https://your-worker-url.workers.dev
 ```
 
 ## Scripts
