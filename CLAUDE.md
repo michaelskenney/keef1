@@ -55,7 +55,7 @@ Vitest + jsdom + Testing Library. Setup file `src/test-setup.ts` imports `@testi
 
 ## Deployment
 
-Deployed to Netlify (`netlify.toml`). SPA catch-all redirect is configured. Build output goes to `dist/`.
+Deployed to Cloudflare Pages. Build output goes to `dist/`.
 
 ## Content Scripts
 
